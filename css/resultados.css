@@ -1,0 +1,83 @@
+#barra-horizontal{
+	height: 65px;
+	background-color: white;
+}
+#barra-horizontal2{
+	height: 115px;
+	background-color: #37454D;
+}
+#logoPrincipal{
+	padding-top: 20px;
+}
+#menu-principal{
+	height: 65px;
+}
+
+#favoritos{
+	border-left: 1px solid #EBECED ;
+	height: 65px;
+	padding-top: 20px;	
+}
+#moneda{
+	border-left: 1px solid #EBECED;
+	height: 65px;
+	padding-top: 20px;
+}
+#idioma{
+	border-left: 1px solid #EBECED;
+	height: 65px;
+	padding-top: 20px;
+
+}
+#cuenta{
+border-left: 1px solid #EBECED;
+	height: 65px;
+	padding-top: 20px;
+}
+.input-text{
+
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+}
+#linea1{
+	padding-top: 12px;
+
+}
+#linea2{
+	padding-top: 7px;
+}
+#barra-busqueda{
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+#buscar{
+	border-radius: 0px;
+}
+#fecha-entrada{
+	padding-top: 10px;
+	background-color: white;
+	text-align: center;
+	margin-right: 7px;
+	height:45px; 
+
+}
+#fecha-salida{
+	padding-top: 10px;
+	background-color: white;
+	text-align: center;
+	height:45px; 
+}
+#numero-personas{
+	padding-top: 10px;
+	background-color: white;
+	text-align: center;
+	margin-left: 7px;
+	height:45px; 
+}
+.envoltura{
+	margin: 0px;
+	padding: 0px;
+}
