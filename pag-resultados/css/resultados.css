@@ -1,3 +1,10 @@
+.body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
 #barra-horizontal{
 	height: 65px;
 	background-color: white;
@@ -155,4 +162,41 @@ border-left: 1px solid #EBECED;
 
 .sinborde{
 	margin: 0px;
+}
+
+.sinborde2{
+	margin: 10px;
+}
+
+.cont-inf-hot{
+	padding: 8px;
+	border: 1px solid #cdd0d2;
+	margin: 10px;
+	background-color: #ffffff;
+	border-radius: 2px;
+	height: 200px;
+}
+
+.borde2{
+	padding: 0px;
+	height: 100%;
+}
+
+.img{
+	height: 100%;
+	width: 100%;
+}
+
+.cont-inf-hot-nombre{
+	font-size: 20px;
+	line-height: 1.25;
+	text-align: left;
+	text-overflow: ellipsis;
+	width: 100%;
+	display: block;
+	font-weight: bold;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }

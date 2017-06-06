@@ -66,12 +66,12 @@
 			<div class="col-md-7 borde1" >
 				 <div class="row">
 				 	<div class="col-md-12">
-				 		<div class="col-md-4">
+				 		<div class="col-md-4" style="padding-left: 0px;">
 				 			<p id="nums-resultados" class="margen1"> <strong>921</strong> de 18,000 hoteles</p>
 				 		</div>
-				 		<div class="col-md-1"></div>
-				 		<div class="col-md-4">
-				 			<select id="odernar-por" title="ordenar-por" class="selectpicker flecha menu-desplegable" style="width: 100%; ">
+				 		<div class="col-md-5" style="padding-right: 0px;">
+				 		    <!--Este es el select de ordenar informacion-->
+				 			<select id="odernar-por" title="ordenar-por" class="selectpicker flecha menu-desplegable" style="width: 70%; margin-left: 60%;">
 				 			    <option value="o-popularidad">Ordenar por popularidad</option>
 				 				<option value="p-valorizacion">Priorizar por valorización</option>
 				 				<option value="p-precio">Priorizar por precio</option>
@@ -79,14 +79,15 @@
 				 				<option value="o-precio">Ordenar por precio</option>
 				 			</select>
 				 		</div>
-				 		<div class="col-md-3" >
-				 			<div class="dropdown" > 
+				 		<div class="col-md-3" style="padding-right: 0px; width: 100%;">
+				 			<div class="dropdown" style="width: 100%; margin-left: 55%;"> 
                             	<button class="btn btn-default menu-desplegable" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white;">
     								Compartir
     								<strong><span class="glyphicon glyphicon-menu-down" aria-hidden="true"	></span></strong>
   								</button>
+  								<!--Este es el menu despegable de compartir-->
   								<ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="width: 270px; height: 330px; padding: 0.5em;">
-    								<li class="sinborde"><h3 class="h3-estilo1" style="">Comparte esta lista</h3></li>    
+    								<li class="sinborde"><h3 class="h3-estilo1 sinborde2" style="">Comparte esta lista</h3></li>    
     								<li role="separator" class="divider sinborde"></li>
     								
     								<li class="estilo-dropdown-menu" style="background-color: #5c6368;">
@@ -94,33 +95,42 @@
     										<span class="glyphicon glyphicon-envelope" aria-hidden="true" style="font-size: 15px;"></span> 
     										Compartir por email
     									</a>
-    								</li>
-    								
+    								</li>    								
     								<li class="estilo-dropdown-menu" style="background-color: #3b589b; width: 98%">
     									<a href="#" style="background-color: #3b589b; color: #fff; font-weight: 700; font-size: 14px; line-height: 11px; vertical-align: center;">
     										<font style="font-size: 23px; background-color: #3b589b; ">f</font> 
     										Compartir en Facebook
     									</a>
-    								</li>
-    								
+    								</li>    								
     								<li class="estilo-dropdown-menu" style="background-color: #c94334; width: 98%">
     									<a href="#" style="color: #fff; font-weight: 700; font-size: 14px; line-height: 11px; vertical-align: center; background-color: #c94334;">
     										<font style="font-size: 23px; background-color: #c94334; ">G+</font> 
     										Compartir en Google+
     									</a>
-    								</li>
-    								
+    								</li>    								
     								<li class="estilo-dropdown-menu" style="background-color: #20ade5; width: 98%">
     									<a href="#" style="color: #fff; font-weight: 700; font-size: 14px; line-height: 11px; vertical-align: center; background-color: #20ade5;">  
     									    <img src="../img/twitter-logo.gif" style="height: 20px; width: 25px; display: inline-block;" class="img-responsive"> 
     									    <p style="display: inline-block;">Compartir en Twitter</p>
     									</a>
+    								</li>    								
+    								<li class="estilo-dropdown-menu" style="width: 98%; font-size: 12px;" >Copie y pegue el enlace para compartir su lista de hoteles con otros<br> <input type="url" readonly="readonly" id="enlace-compartir" class="i-compartir-enlace" value="http://www.diez.hn/">
     								</li>
-    								
-    								<li class="estilo-dropdown-menu" style="width: 98%; font-size: 12px;" >Copie y pegue el enlace para compartir su lista de hoteles con otros<br> <input type="url" readonly="readonly" id="enlace-compartir" class="i-compartir-enlace" value="http://www.diez.hn/"></li>
-
   								</ul>
 							</div>
+				 		</div>
+				 	</div>
+				 </div>
+
+				 <div id="contenedor-informacion-hoteles">
+				 	<div class="row">
+				 		<div class="col-md-12 well cont-inf-hot">
+				 			<div class="col-md-3 borde2"><img src="../img/imagen-prueba.jpg" class="img-responsive img"></div>
+				 			<div class="col-md-4 borde2">
+				 				<h3 class="cont-inf-hot-nombre" style="margin: 0px; margin-left: 10px;">Nombre  del Hotel</h3>
+				 			</div>
+				 			<div class="col-md-2 borde2"></div>
+				 			<div class="col-md-3 borde2"></div>
 				 		</div>
 				 	</div>
 				 </div>
