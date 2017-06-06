@@ -82,6 +82,77 @@ border-left: 1px solid #EBECED;
 	padding: 0px;
 }
 
+.margen1{
+	margin-top: 0.5em;
+}
+
 .borde1{
-	padding: 1.5em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.flecha{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background: url(../img/flecha.png) no-repeat right #FFF;
+	 -moz-appearance: none;
+	 -webkit-appearance: none;
+	 appearance: none;
+}
+
+.menu-desplegable{
+	height: 36px; 
+	border-radius: 2px; 
+	border: 1px solid #9ba2a6; 
+	color: #37454d; 
+	font: inherit;
+}
+
+.h3-estilo1{
+	font-size: 16px; 
+	color: #37454d; 
+	margin-left: 1em;
+}
+
+.estilo-dropdown-menu{
+	text-align: left; 
+	vertical-align: middle; 
+	height: 36px;
+	width: 100%; 
+	display: inline-block; 
+	border-radius: 2px; 
+	border-top: 0;
+    border-right: 0; 
+    border-left: 0; 
+    cursor: pointer; 	
+    padding: 0.4em;
+    margin: 0.2em;
+    width: 98%
+}
+
+.i-compartir-enlace{
+	resize: none;
+    margin-bottom: 8px;
+    min-height: 40px;
+    max-height: 40px;
+    padding: 12px 4px;
+    line-height: 1.25;
+    font-size: 12px;
+    text-align: left;
+    background-color: transparent;
+    border: 1px solid #9ba2a6;
+    border-radius: 2px;
+    color: #37454d;
+    height: 44px;
+    width: 100%;
+    display: block;
+    font: inherit;
+    margin: 0;
+    overflow: visible;
+}
+
+.sinborde{
+	margin: 0px;
 }
