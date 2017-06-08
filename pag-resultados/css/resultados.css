@@ -174,7 +174,7 @@ border-left: 1px solid #EBECED;
 	margin: 10px;
 	background-color: #ffffff;
 	border-radius: 2px;
-	height: 180px;
+	height: 165px;
 }
 
 .borde2{
@@ -199,4 +199,30 @@ border-left: 1px solid #EBECED;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+}
+
+.estrellas-puntuacion{
+	padding-left: 10px;
+	color: #f6ab3f;
+}
+
+.borde3{
+	padding-left: 10px;
+}
+
+#direccion-hotel{
+	color: #37454d;	
+}
+
+.sinborde3{
+	margin: 0px;
+	padding: 0px;
+}
+
+.oferta-precio{
+	border-right: 1px solid #cdd0d2;
+	border-left: 1px solid #cdd0d2;
+	color: #697379;
+	font-size: 12px;
+	font-weight: bold;
 }
