@@ -22,7 +22,6 @@
 
 #favoritos{
 	border-left: 1px solid #EBECED ;
-	height: 65px;
 	padding-top: 20px;	
 }
 #moneda{
@@ -59,9 +58,11 @@ border-left: 1px solid #EBECED;
 #barra-busqueda{
 	border-bottom-right-radius: 0px;
 	border-top-right-radius: 0px;
+	height: 40px;
 }
 #buscar{
 	border-radius: 0px;
+	height: 40px;
 }
 #fecha-entrada{
 	padding-top: 10px;
@@ -81,7 +82,6 @@ border-left: 1px solid #EBECED;
 	padding-top: 10px;
 	background-color: white;
 	text-align: center;
-	margin-left: 7px;
 	height:45px; 
 }
 .envoltura{
@@ -225,4 +225,25 @@ border-left: 1px solid #EBECED;
 	color: #697379;
 	font-size: 12px;
 	font-weight: bold;
+}
+
+#perfil-dropdown-menu{
+	top: 62px; 
+    left: 172px;
+}
+#idioma-dropdown-menu{
+	top: 62px; 
+    left: 114px;
+}
+#moneda-dropdown-menu{
+	top: 62px; 
+    left: 114px;
+}
+#favoritos-dropdown-menu{
+	top: 62px;
+    left: -1px;
+}
+#cuartos-dropdown-menu{
+	    top: 53px;
+    left: 688px;
 }
