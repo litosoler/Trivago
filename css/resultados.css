@@ -174,7 +174,7 @@ border-left: 1px solid #EBECED;
 	margin: 10px;
 	background-color: #ffffff;
 	border-radius: 2px;
-	height: 165px;
+	height: 180px;
 }
 
 .borde2{
@@ -210,8 +210,13 @@ border-left: 1px solid #EBECED;
 	padding-left: 10px;
 }
 
+.borde31{
+	padding-left: 15px;
+}
+
 #direccion-hotel{
 	color: #37454d;	
+	margin-top: 10px;
 }
 
 .sinborde3{
@@ -223,8 +228,9 @@ border-left: 1px solid #EBECED;
 	border-right: 1px solid #cdd0d2;
 	border-left: 1px solid #cdd0d2;
 	color: #697379;
-	font-size: 12px;
+	font-size: 10px;
 	font-weight: bold;
+	margin-top: 10px;
 }
 
 #perfil-dropdown-menu{
@@ -246,4 +252,81 @@ border-left: 1px solid #EBECED;
 #cuartos-dropdown-menu{
 	    top: 53px;
     left: 688px;
+}
+
+.rating-div{
+		background-color: #007400;
+		border-radius: 2px;
+		margin: 0px;
+		width: 2em;
+		height: 2em;
+		border: 0px;
+		padding-left: 15px;
+		color: white;
+		padding-top: 4px;
+		padding-left: 5.5px;
+}
+
+.rating-div-op{
+	padding-top: 4px;
+}
+
+#font-wifi{
+	font-size: 1.3em;
+	color: #37454d;
+	padding-top: 20px;
+	margin-right: 7px;
+}
+
+#opiniones{
+	margin-top: 10px;
+}
+
+#ofrece-wifi{
+	margin-top: 10px;
+}
+
+.bloque-en-linea{
+	display: inline-block;
+}
+
+.bloque-no-linea{
+	display: block;
+}
+
+#mas-ofertas{
+	width: 90%;
+	margin-left: 6px;
+	border-top: 1px solid #cdd0d2;
+	padding-left: 14px;
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+.empresas-comodas{
+	font-size: 11px;
+	width: 100px;
+	margin: 0px;
+	margin-left: 31px;
+}
+
+.centrado{
+	top: 50%;
+	left: 50%;
+}
+
+#ir-oferta{
+	width: 99%;	
+	border: 0px;
+	height: 45px;
+	background-color: #6DA014;
+	border-radius: 2px;
+	font-size: 16px;
+}
+
+.empresas-mas-comoda{
+	font-size: 11px;
+	width: 100px;
+	margin: 0px;
+	margin-left: 31px;
 }
