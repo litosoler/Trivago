@@ -9,10 +9,12 @@
     <title>Registrarse en trivago</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 	<link rel="stylesheet" href="../css/bootstrap.min.css"> 
-	<link rel="stylesheet" href="../css/estilos.css">
+  <!-- personales -->
+	<link rel="stylesheet" type="text/css" href="../css/estandares.css">
+	<!--<link rel="stylesheet" href="../css/estilos.css">-->
   
 <style type="text/css">
  
@@ -51,13 +53,7 @@
     margin-top: -40px;
     float: right;
   }
-
-
-
 </style>
-
-
-
 
 </head>
 <body>
@@ -82,30 +78,29 @@
       <div class="col-md-4">
         <div class="container" id="caja" style="text-align: center;">
                 <h3 style="font-size: 20px">Regístrate con una red social</h3>
-                <a href="http://www.facebook.es"> <img src="../img/registerface.png" style="margin-top: 5px; margin-bottom: 15px"> </a>
-                <a href="https://aboutme.google.com/u/0/?referer=gplus"> <img src="../img/registergoogle.png" style="margin-bottom: 15px"> </a>
+                <img src="../img/loginface.png" style="margin-top: 5px; margin-bottom: 15px">
+                <img src="../img/logingoogle.png" style="margin-bottom: 15px"> 
                 <p style="font-size: 14px">No publicaremos nada en tu Facebook o Google+ sin consultarte primero.</p>
                 </div> 
       </div>
       <div class="col-md-4">
                 <div class="container" id="caja">
                 <h3 style="font-size: 20px; text-align: center;">Regístrate con tu e-mail</h3>
-               <form class="fuenteform">
-                <div class="form-group">
-                  <label for="email">Correo Electronico:</label>
-                  <input type="email" class="form-control" id="email">
+               <div class="fuenteform">
+                <div class="form-group ">
+                  <label for="correo">Correo Electronico:</label>
+                  <input type="correo" class="form-control" id="correo">
                 </div>
                 <div class="form-group">
                   <label for="pwd">Contraseña:</label>
-
                   <input type="password" class="form-control" id="pwd">
                 </div>
                 <div class="checkbox">
                   <label><input type="checkbox"> Mostrar contraseña</label>
                 </div>
                 
-                <button type="submit" class="btn btn-primary btn-lg botonderecha">Registrarme</button>
-                </form>
+                <button id="registrar" type="submit" class="btn btn-primary btn-lg botonderecha">Registrarme</button>
+                </div>
               </div>
       </div>
 
@@ -120,6 +115,10 @@
 
    
     <p>¿No registrado? <a href="https://accounts.trivago.com/login#/sign-up">Registrate</a></p>
+    <!-- jquery-->
+	<script type="text/javascript" src="../libs/jquery.js"></script>
+	<!--personales-->
+    <script type="text/javascript" src="../js/registroUsuario.js"></script>
   			   
 </body>
 </html>
