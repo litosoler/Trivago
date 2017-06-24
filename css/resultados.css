@@ -4,7 +4,11 @@
     line-height: 1.42857143;
     color: #333;
 }
-
+.navbar-brand{
+	font-size: 30px;
+	margin-bottom: 5px;
+    margin-top: 5px;
+}
 #barra-horizontal{
 	height: 65px;
 	background-color: white;

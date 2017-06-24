@@ -29,7 +29,11 @@
 	<div id="barra-horizontal" class="container-fluid">
 		<div class="row">
 			<div class=" col-md-offset-5 col-md-1">
-				<img id="logoPrincipal" src="../img/logoPrincipal.png" class="img-responsive">
+				<a class="navbar-brand" href="Pagina_Inicio.html">
+					<strong>
+						<span style="color: #2973B8;">tri</span><span style="color: #E37A1F;">va</span><span style="color: #A3171A ;">go</span>
+					</strong>
+				</a>
 			</div>	
 			<div id="menu-principal" class="col-md-offset-3 col-md-3">
 				<div class="row">
@@ -37,7 +41,7 @@
 					<div class="dropdown">
 						<a id="favoritos"  class="btn dropdown-toggle col-md-2"  data-toggle="dropdown"><span class="glyphicon glyphicon-heart-empty" ></a>
 						<ul id="favoritos-dropdown-menu" class="dropdown-menu">
-						<li><img src="../img/mensaje-favoritos.png"></li>
+							<li><img src="../img/mensaje-favoritos.png"></li>
 						</ul>
 					</div>
 					<!-- Modenda-->	
@@ -60,16 +64,15 @@
 					<div class="dropdown">
 						<a id="cuenta" class="btn  dropdown-toggle col-md-2" data-toggle="dropdown">Mi Perfil<span class="caret"></span></a>
 						<ul id="perfil-dropdown-menu" class="dropdown-menu">
-							<li><a href="#">Iniciar Sesion</a></li>
+							<li><a href="inicio-sesion.html">Iniciar Sesion</a></li>
 							<li class="divider"></li>
-							<li><a href="#">Registrarse</a></li>
+							<li><a href="registro-usuarios.html">Registrarse</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 <!-- barra superior segunda -->
 <div id="barra-horizontal2" class="container-fluid">
 	<div id="linea1" class="row">

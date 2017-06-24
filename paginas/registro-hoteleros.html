@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <title>Registro Hotelero</title>
-
+    <!-- jquery-->
+  <script type="text/javascript" src="../libs/jquery.js"></script>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 	<link rel="stylesheet" href="../css/bootstrap.min.css"> 
-	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel="stylesheet" href="../css/estandares.css">
   
 </head>
 <body>
@@ -75,13 +76,14 @@
 
 
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="border-style: ridge;padding-bottom: 15px; width: 600px; margin-top: 22px"  > 
-  		<form style="padding-left: 20px;">
+  		<div style="padding-left: 20px;">
   			<table  >
   				
   			   <tr> 
   			        
   			   		<td colspan="2">
-  			   			<label for="txt_nomehotel">Nombre Del Hotel</label><input type="text" class="form-control" name="nombre_hotel" id="txt_nomehotel" placeholder="Busque su Hotel" style="width: 450px; height: 50px;" >
+  			   			<label for="txt_nomehotel">Nombre Del Hotel</label>
+                <input type="text" class="form-control" name="nombre_hotel" id="txt_nomehotel" placeholder="Busque su Hotel" style="width: 450px; height: 50px;" >
  	 			   		<p class="hint-formfield p-0">
   				   		<small>Puede seleccionar mas de un hotel</small></td>
 
@@ -146,16 +148,16 @@
   			   </tr>
   			   
   			   	<tr>
-  			   		<td><div class="form-group has-error" >
-                       <label  for="inputError1"> Nombre</label>
-                    	<input type="text" class="form-control" id="inputError1" style="width: 212px; height: 50px;" >
+  			   		<td><div class="form-group" >
+                       <label  for="nombre-usr"> Nombre</label>
+                    	<input type="text" class="form-control" id="nombre-usr" style="width: 212px; height: 50px;" >
                        </div>
                      
                      </td>
                      <td>
-  			   	    <div class="form-group has-error" style="padding-right: 80px">
-  						<label class="Apellido" for="inputError2">Apellido</label>
-  						<input type="text" class="form-control" id="inputError2" style="width: 212px; height: 50px"> 
+  			   	    <div class="form-group" style="padding-right: 80px">
+  						<label class="Apellido" for="apellido-usr">Apellido</label>
+  						<input type="text" class="form-control" id="apellido-usr" style="width: 212px; height: 50px"> 
 						</div>
                           
    		 	       	 </td>
@@ -626,21 +628,21 @@
                             </option></select>
   			   		</td>
   			   		<td style="padding-top: 20px; margin: 25px; padding-left: " >
-  			   			<input type="text" class="form-control" name="txt_tel" id="txt_telid" placeholder="32364307 " style="width: 212px; height: 50px;">
+  			   			<input type="text" class="form-control" name="txt_tel" id="txt_tel" placeholder="32364307 " style="width: 212px; height: 50px;">
   			   		</td>
   			   	</tr>
   			   	
   			   	<tr>
   			   		<td colspan="2">
-  			   		    <label for="emailodif">E-mail </label>
-  			   			<input type="E-mail" class="form-control" name="emailof" id="emailofid" placeholder="E-mail@trivago.com" style="height: 50px; width: 450px">
+  			   		    <label for="correo">E-mail </label>
+  			   			<input type="E-mail" class="form-control" name="emailof" id="correo" placeholder="E-mail@trivago.com" style="height: 50px; width: 450px">
   			   		</td>
   			   	</tr>
   			   	
   			   	<tr>
   			   		<td colspan="2">
-  			   		    <label for="password_txtid">Contraseña </label>
-  			   		    <input type="password" class="form-control" name="password_txt" id="password_txtid" placeholder="*******" style="height: 50px; width: 450px">
+  			   		    <label for="pwd">Contraseña </label>
+  			   		    <input type="password" class="form-control" name="password_txt" id="pwd" placeholder="*******" style="height: 50px; width: 450px">
   			   		    <p>
   			   		    <small>minimo 6 caracteres</small>
   			   		    </p>
@@ -656,7 +658,7 @@
                </tr>
                <tr>
                		<th>
-                           <input type="submit" value="Crear Cuenta Gratuita" class="btn btn-primary" style="line-height: 2.0; font-weight: 600; margin-top: 15px"  >             	
+                           <button id="crear-cuenta" class="btn btn-primary" style="line-height: 2.0; font-weight: 600; margin-top: 15px"  >Crear Cuenta Gratuita</button>             	
                		</th>
                	
                </tr>
@@ -664,9 +666,9 @@
 
          </table>
         <div style="background-color: #ebeced; padding-top: 10px; padding-bottom: 10px; text-align: center; margin-top: 10px">
-       Ya tienes cuenta?<a href="algunlugar"> Inicie Sesion</a>
+       Ya tienes cuenta?<a href="#"> Inicie Sesion</a>
      </div>
-     </form>
+     </div>
      
    </div>
    </div>
@@ -776,6 +778,6 @@
 
                
  	   	 </div> 		
-  			   
+  		<script type="text/javascript" src="../js/registro-hoteleros.js" >  </script>
 </body>
 </html>

@@ -30,7 +30,6 @@
          
           font-size: 16px;
           margin-top:50px;
-          position:absolute;
           border:1px;
           width: 410px;
           height:293px;
@@ -49,42 +48,43 @@
   }
   
   .botonderecha{
-    margin-top: -40px;
-    float: right;
+      float: right;
   }
-
+  #cuerpo{
+    padding-top: 40px;
+  }
+  #registrar{
+    padding-top: 30px;
+  }
 </style>
 
 </head>
 <body>
     
-  <div>
    <nav class="navbar  navbar-fixed-top"  style="background-color: #ffffff; border-color: #9a9d9f;">
 	   
      <div class="container" style="padding: 12px; height: 40px margin-top: 5px" align="center">  
-	
-     	<a href="http://www.trivago.es/"> <img src="../img/logoPrincipal.png"> </a>
+  
+      <a href="Pagina_Inicio.html"> <img src="../img/logoPrincipal.png"> </a>
       <img src="../img/candado.png" align="right"> 
 
      </div>
+     </nav>
   
 
       
-  <div class="container-fluid"> 
+  <div id="cuerpo" class="container"> 
     <div class="row">
-
-      <div class="col-md-2" ></div> <!-- DIV IZQUIERDO -->
-
-      <div class="col-md-4">
-        <div class="container" id="caja" style="text-align: center;">
+      <div class="col-md-offset-1 col-md-4">
+         <div id="caja" style="text-align: center;">
                 <h3 style="font-size: 20px">Inicia sesion con una red social</h3>
-                <a href="http://www.facebook.es"> <img src="../img/loginface.png" style="margin-top: 5px; margin-bottom: 15px"> </a>
-                <a href="https://aboutme.google.com/u/0/?referer=gplus"> <img src="../img/logingoogle.png" style="margin-bottom: 15px"> </a>
+                <a href="#"> <img src="../img/loginface.png" style="margin-top: 5px; margin-bottom: 15px"> </a>
+                <a href="#"> <img src="../img/logingoogle.png" style="margin-bottom: 15px"> </a>
                 <p style="font-size: 14px">No publicaremos nada en tu Facebook o Google+ sin consultarte primero.</p>
                 </div> 
       </div>
-      <div class="col-md-4">
-                <div class="container" id="caja">
+      <div class="col-md-offset-1 col-md-4 col-md-offset-2">
+                <div id="caja">
                 <h3 style="font-size: 20px; text-align: center;">Inicia sesion con tu e-mail</h3>
                <div class="fuenteform">
                 <div class="form-group">
@@ -94,30 +94,28 @@
                 <div class="form-group">
                   <label for="pwd">Contraseña:</label>
 
-                  <p style="float: right;"><a href="https://accounts.trivago.com/login#/password/reset"> ¿Olvidaste tu contraseña?</a></p>
+                  <p style="float: right;"><a href="#"> ¿Olvidaste tu contraseña?</a></p>
 
                   <input type="password" class="form-control" id="pwd">
                 </div>
                 <div class="checkbox">
                   <label><input type="checkbox"> Mostrar contraseña</label>
-                </div>
-                <div class="checkbox">
                   <label><input type="checkbox"> Recordar mis datos</label>
                 </div>
                 <button id="iniciar-sesion" class="btn btn-primary btn-lg botonderecha">Iniciar sesion</button>
                 </div>
-              </div>
-      </div>
-
-      <div class="col-md-2"></div> <!-- DIV DERECHO -->
-           
-    </div>
+         </div>
+      </div>      
       
+    </div>
+    <div class="row">
+    <div id="registrar" class="col-md-offset-5" >
+      <h5>¿No registrado? <a href="registro-usuarios.html">Registrate</a></h5>
+    </div>  
+      
+    </div>
   </div>  
-
-  </div>
   
-    <p>¿No registrado? <a href="registro-usario.html">Registrate</a></p>
 
   <!-- jquery-->
   <script type="text/javascript" src="../libs/jquery.js"></script>
