@@ -52,7 +52,7 @@
     			<div class="trivago">
 	        	<h1>Encuentra tu hotel ideal<br>al mejor precio</h1>
 		        	<div class="search">
-	        			<input type="search" name="main-search" class="input-search" placeholder="Ej. Tegucigalpa">
+	        			<input id="buscar" type="search" name="main-search" class="input-search" placeholder="Ej. Tegucigalpa">
 	        			<button><strong>Buscar</strong></button>
 	        		</div>
 	        </div>
@@ -64,8 +64,16 @@
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <script src="../js/jquery-3.2.1.min.js"></script>
+   <script type="text/javascript" src="../libs/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	var contador=0;
+$("#buscar").keypress(function(){
+	contador++;
+	if (contador==4)
+	window.location.href = "resultados.php?valor=" + $(this).val();
+});
+    </script>
 
   </body>
 </html>

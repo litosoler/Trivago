@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,7 +41,13 @@
 						</ul>
 					</div>
 					<!-- Modenda-->	
-					<div id="moneda" class="col-md-2">USD</div>
+					<div  class="dropdown">
+						<a   id="moneda" class="btn  dropdown-toggle col-md-2" data-toggle="dropdown">USD</a>
+						<ul id="moneda-dropdown-menu" class="dropdown-menu">
+							<li><a href="#">USD</a></li>
+							<li><a href="#">Lempira</a></li>
+						</ul>
+					</div>
 					<!--idiomas-->
 					<div  class="dropdown">
 						<a   id="idioma" class="btn  dropdown-toggle col-md-2" data-toggle="dropdown">ES</a>
@@ -62,13 +70,12 @@
 		</div>
 	</div>
 </div>
-
 <!-- barra superior segunda -->
 <div id="barra-horizontal2" class="container-fluid">
 	<div id="linea1" class="row">
 		<div class="col-md-offset-2 col-md-8">
 			<div class="row">
-				<input type="text" id="barra-busqueda" class="input-text col-md-10 ">
+				<input type="text" autofocus id="barra-busqueda" class="input-text col-md-10 " value="<?php if(isset($_GET["valor"])) echo $_GET["valor"]; ?>" >
 				<button id="buscar" class="btn btn-primary col-md-2">buscar</button>
 			</div>
 		</div>

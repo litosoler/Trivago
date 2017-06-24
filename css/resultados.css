@@ -26,6 +26,7 @@
 }
 #moneda{
 	border-left: 1px solid #EBECED;
+	text-decoration-color: black;
 	height: 65px;
 	padding-top: 20px;
 }
@@ -59,6 +60,7 @@ border-left: 1px solid #EBECED;
 	border-bottom-right-radius: 0px;
 	border-top-right-radius: 0px;
 	height: 40px;
+	   font-size: x-large;
 }
 #buscar{
 	border-radius: 0px;
@@ -243,7 +245,7 @@ border-left: 1px solid #EBECED;
 }
 #moneda-dropdown-menu{
 	top: 62px; 
-    left: 114px;
+    left: 57px;
 }
 #favoritos-dropdown-menu{
 	top: 62px;
@@ -252,6 +254,9 @@ border-left: 1px solid #EBECED;
 #cuartos-dropdown-menu{
 	    top: 53px;
     left: 688px;
+}
+.dropdown a{
+	color: black;
 }
 
 .rating-div{
