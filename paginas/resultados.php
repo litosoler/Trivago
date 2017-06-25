@@ -122,16 +122,15 @@
 			<p>Barra izquierda</p>
 		</div>
 		<!-- Parte Central -->
-		<div class="col-md-7 borde1" >
+		<div class="col-md-8 borde1" >
 			<div class="row">
-				<div class="col-md-12" style="padding: 0px; margin: 0px;">
+				<div class="col-md-12" style="padding: 15 15 0 0px; margin: 0px;">
 					<div class="col-md-5">
-
 						<p id="nums-resultados" class="margen1"> <strong>921</strong> de 18,000 hoteles</p>
 					</div>
 					<div class="col-md-5" >
 						<!--Este es el select de ordenar informacion-->
-						<select id="odernar-por" title="ordenar-por" class="selectpicker flecha menu-desplegable" style="width: 80%; margin-left: 100px;">
+						<select id="odernar-por" title="ordenar-por" class="selectpicker flecha menu-desplegable" style="width: 80%; margin-left: 123px;">
 							<option value="o-popularidad">Ordenar por popularidad</option>
 							<option value="p-valorizacion">Priorizar por valorización</option>
 							<option value="p-precio">Priorizar por precio</option>
@@ -141,7 +140,7 @@
 					</div>
 					<div class="col-md-2">
 						<div class="dropdown" style="width: 100%;"> 
-							<button class="btn btn-default menu-desplegable" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 25px;">
+							<button class="btn btn-default menu-desplegable" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 40px;">
 								Compartir
 								<strong><span class="glyphicon glyphicon-menu-down" aria-hidden="true"	></span></strong>
 							</button>
@@ -188,8 +187,8 @@
 			    <!--Inicio de la Etiqueta del Hotel-->
 				<div class="row">
 					<div class="col-md-12 well cont-inf-hot">
-						<div class="col-md-2 borde2"><img src="../img/imagen-prueba.jpg" class="img-responsive img"></div>
-						<div class="col-md-5 borde2">
+						<div class="col-md-3 borde2"><img src="../img/imagen-prueba.jpg" class="img-responsive img"></div>
+						<div class="col-md-4 borde2">
 							<a href="#" style="text-decoration:none; color: #37454d;" ><h3 class="cont-inf-hot-nombre" id="nombre-hotel" style="margin: 0px; margin-left: 10px;">Nombre  del Hotel ...</h3></a>
 							<div id="puntuacion-estrellas" class="estrellas-puntuacion">
 								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -248,7 +247,7 @@
 									<p class="centrado" style="font-weight: 800; color: #66a400">$234.009</p> 
 								</a>
 							</div>
-							<div class="bloque-no-linea" style="margin-left: 10px; padding-top: 30px;">
+							<div class="bloque-no-linea" style="margin-left: 11px; padding-top: 30px;">
 								<button href="#" id="ir-oferta" style="color: white;"><strong>
 									<div class="bloque-en-linea" style="margin-left: 25px;"> <strong>Ver oferta</strong></div>
 									<div class="bloque-en-linea" style="margin-left: 35px;"><span class="glyphicon glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
@@ -263,7 +262,7 @@
 								<div class="bloque-en-linea col-md-7" style="margin-right: 73px"></div>
 						<div class="bloque-en-linea col-md-1 sinborde3" style="align-content: right">
 							<div  style="width: 100%; margin-left:0px;"> 
-							<a href="#" class="menu-desplegable" id="dropdownMenu1-compartir" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 25px; text-decoration:none; color: #37454d; border: 0px; border-right: 2px solid #cdd0d2; padding-right: 10px">
+							<a href="#" class="menu-desplegable" id="dropdownMenu1-compartir" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 75px; text-decoration:none; color: #37454d; border: 0px; border-right: 2px solid #cdd0d2; padding-right: 10px">
 								Compartir
 							</a>
 							<!--Este es el menu despegable de compartir-->
@@ -300,19 +299,95 @@
 							</ul>
 						</div>
 						</div>
-						<div class="bloque-en-linea col-md-3 sinborde3" style="align-content: right; margin-left: 20px; width: 140px;">
-							<a href="#" class="menu-desplegable" id="detalles" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 25px; text-decoration:none; color: #37454d; border: 0px;">
+						<div class="bloque-en-linea col-md-3 sinborde3" style="align-content: right; margin-left: 55px; width: 140px;">
+							<a href="#" class="menu-desplegable" id="detalles" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 30px; text-decoration:none; color: #37454d; border: 0px;">
 								Detalles del hotel
 							</a>
 						</div>
-						<div class="bloque-en-linea col-md-1 sinborde3" style="align-content: right; margin-left: 3px; width: 2px;">
+						<div class="bloque-en-linea col-md-1 sinborde3" style="align-content: right; margin-left: 10px; width: 2px;">
 							<span class="glyphicon glyphicon glyphicon-remove btn-default" id="cerrar-opciones" >
 						</div>
 							</div>
 						</div>
-						<!--Inicia el div que cambia dependiendo de las opciones-->
-						<div id="div-empresas-varias">
-							aewefwefewwfw
+						<!--Inicia el div que contiene las opciones-->
+						<div id="#div-contenedor-opciones">
+						    <!--Las opciones-->
+							<div class="oferta-empresas-opcion">
+								<div class="empresa">
+										<div class="col-md-12" style="height: 90%;">
+											<div class="col-md-2" style="height: 100%;">
+												<img src="../img/expedia.png" class="img-responsive img-empresa">
+											</div>
+											<div class="col-md-8 inf-opcion-empresa" style="height: 100%;">
+												<div class="bloque-no-linea"><p class="estilo-plan-empresa">Programa del plan de la empresa</p></div>
+												<div class="bloque-no-linea"><p class="estilo-oferta-empresa">Algo que ofrezca gratis</p></div>
+											</div>
+											<div class="col-md-2 estilo-dinero-empresa">
+												<strong class="estilo-strong-dinero-empresa">$dinero <span class="glyphicon glyphicon glyphicon-menu-right estilo-span-strong-dinero-empresa" aria-hidden="true"></span></strong>
+											</div>
+										</div>
+								</div>
+
+								<div class="empresa">
+										<div class="col-md-12" style="height: 90%;">
+											<div class="col-md-2" style="height: 100%;">
+												<img src="../img/expedia.png" class="img-responsive img-empresa">
+											</div>
+											<div class="col-md-8 inf-opcion-empresa" style="height: 100%;">
+												<div class="bloque-no-linea"><p class="estilo-plan-empresa">Programa del plan de la empresa</p></div>
+												<div class="bloque-no-linea"><p class="estilo-oferta-empresa">Algo que ofrezca gratis</p></div>
+											</div>
+											<div class="col-md-2 estilo-dinero-empresa">
+												<strong class="estilo-strong-dinero-empresa">$dinero <span class="glyphicon glyphicon glyphicon-menu-right estilo-span-strong-dinero-empresa" aria-hidden="true"></span></strong>
+											</div>
+										</div>
+								</div>
+
+								<div class="empresa">
+										<div class="col-md-12" style="height: 90%;">
+											<div class="col-md-2" style="height: 100%;">
+												<img src="../img/expedia.png" class="img-responsive img-empresa">
+											</div>
+											<div class="col-md-8 inf-opcion-empresa" style="height: 100%;">
+												<div class="bloque-no-linea"><p class="estilo-plan-empresa">Programa del plan de la empresa</p></div>
+												<div class="bloque-no-linea"><p class="estilo-oferta-empresa">Algo que ofrezca gratis</p></div>
+											</div>
+											<div class="col-md-2 estilo-dinero-empresa">
+												<strong class="estilo-strong-dinero-empresa">$dinero <span class="glyphicon glyphicon glyphicon-menu-right estilo-span-strong-dinero-empresa" aria-hidden="true"></span></strong>
+											</div>
+										</div>
+								</div>
+
+								<div class="empresa">
+										<div class="col-md-12" style="height: 90%;">
+											<div class="col-md-2" style="height: 100%;">
+												<img src="../img/expedia.png" class="img-responsive img-empresa">
+											</div>
+											<div class="col-md-8 inf-opcion-empresa" style="height: 100%;">
+												<div class="bloque-no-linea"><p class="estilo-plan-empresa">Programa del plan de la empresa</p></div>
+												<div class="bloque-no-linea"><p class="estilo-oferta-empresa">Algo que ofrezca gratis</p></div>
+											</div>
+											<div class="col-md-2 estilo-dinero-empresa">
+												<strong class="estilo-strong-dinero-empresa">$dinero <span class="glyphicon glyphicon glyphicon-menu-right estilo-span-strong-dinero-empresa" aria-hidden="true"></span></strong>
+											</div>
+										</div>
+								</div>
+
+							</div>
+
+							<div class="fotos-hotel">
+								
+							</div>
+
+
+
+							<!--Fin de las opciones-->
+							<div class="row">
+								<div class="col-md-12">
+									<div class="col-md-10"></div>
+									<div class="col-md-2 div-botoncerrar"><button class="btn-botoncerrar btn btn-default "><strong>cerrar</strong></button></div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -320,7 +395,7 @@
 
 			</div>
 		</div>
-		<div class="col-md-2"></div>
+		<div class="col-md-1"></div>
 	</div>
 </div>
 

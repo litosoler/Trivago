@@ -318,7 +318,7 @@ border-left: 1px solid #EBECED;
 	font-size: 11px;
 	width: 100px;
 	margin: 0px;
-	margin-left: 31px;
+	margin-left: 47px;
 }
 
 .centrado{
@@ -339,7 +339,7 @@ border-left: 1px solid #EBECED;
 	font-size: 16px;
 	width: 100px;
 	margin: 0px;
-	margin-left: 70px;
+	margin-left: 75px;
 	padding-top: 35px;
 }
 
@@ -360,7 +360,62 @@ border-left: 1px solid #EBECED;
 	padding: 0px;
 }
 
-#div-empresas-varias{
-	border: 1px solid #cdd0d2;
+#div-contenedor-opciones{
 	margin-top: 8px;
+}
+
+.div-botoncerrar{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 70px;
+	padding: 0px;
+	margin-left: 50px;
+}
+
+.btn-botoncerrar{
+	border: 1px solid #333;
+	border-radius: 2px;
+	height: 36px;
+}
+
+.oferta-empresas-opcion{
+	border: 1px solid #cdd0d2;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.empresa{
+	margin-top: 5px;
+	border-bottom: 1px solid #cdd0d2;
+	height: 46px;
+}
+
+.img-empresa{
+	height: 100%; width: 100%;
+}
+
+.inf-opcion-empresa{
+	border-left: 1px solid #cdd0d2;
+	border-right: 1px solid #cdd0d2;
+	padding-top: 7px;
+}
+
+.estilo-plan-empresa{
+	font-size: 12px; margin-bottom: 0px;
+}
+
+.estilo-oferta-empresa{
+	color: #66a400; font-size: 12px;
+}
+
+.estilo-dinero-empresa{
+	height: 100%; color: #66a400; font-size: 15px; margin-top: 10px;
+}
+
+.estilo-strong-dinero-empresa{
+	margin-left: 26px; width: 100%
+}
+
+.estilo-span-strong-dinero-empresa{
+	margin-left: 7px;
 }
