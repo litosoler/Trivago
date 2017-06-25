@@ -339,3 +339,55 @@ border-left: 1px solid #EBECED;
 	margin: 0px;
 	margin-left: 31px;
 }
+
+#barra-izquierda{
+	padding-top: 1.5em;
+	padding-left: 25px;
+	padding-right: 5px;
+}
+#cuadro-mapa{
+	background-image: url("../img/maps.png");
+	height: 100px;
+	padding-top: 31px;
+}
+#cuadro-filtro{
+	background-color: white;
+	height: 880px;
+	margin-top: 12px;
+	box-shadow: 1px 1px 6px #888888;	
+}
+#btn-mapa{
+	height: 38px;
+	width: 90px;
+	border: solid 1px black ;
+	text-align: center;
+	padding-top: 8px;
+	margin: auto;
+	background-color: white;
+}
+#cuadro-mapa-externo{
+	box-shadow: 1px 1px 6px #888888;
+	background-color: white;
+	padding: 6px;
+}
+#estrellas{
+	
+}
+#puntuacion{
+	
+}
+#precio{
+	
+}
+#distancia{
+	
+}
+#mas-buscado{
+	
+}
+#busacdor-nomnbre{
+	
+}
+#borrar-filtros{
+	
+}

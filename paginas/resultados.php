@@ -118,8 +118,24 @@
 	<div class="row">
 		<div class="col-md-1"></div>
 		<!-- Barra Izquierda -->
-		<div class="col-md-2 borde1" >
-			<p>Barra izquierda</p>
+		<div class="col-md-3" >
+			<div id="barra-izquierda" >
+			<div id="cuadro-mapa-externo">
+					<div id="cuadro-mapa">
+						<p id="btn-mapa">Ver mapa</p>
+					</div>
+				</div>
+				<!-- la en como prefijo de los nombre significa que son los contenedores de los filtros. -->
+				<div id="cuadro-filtro">
+					<div id="c-estrellas"></div>
+					<div id="c-puntuacion"></div>
+					<div id="c-precio"></div>
+					<div id="c-distancia"></div>
+					<div id="c-mas-buscado"></div>
+					<div id="c-busacdor-nomnbre"></div>
+					<div id="c-borrar-filtros"></div>
+				</div>
+			</div>
 		</div>
 		<!-- Parte Central -->
 		<div class="col-md-7 borde1" >
@@ -256,7 +272,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-2"></div>
+		<div class="col-md-1"></div>
 	</div>
 </div>
 
