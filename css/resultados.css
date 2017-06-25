@@ -419,3 +419,15 @@ border-left: 1px solid #EBECED;
 .estilo-span-strong-dinero-empresa{
 	margin-left: 7px;
 }
+
+.carusel-fotos-hotel{
+	padding: 35px;
+}
+
+.ancho-100{
+	width: 100%;
+}
+
+.alto-100{
+	height: 100%;
+}
