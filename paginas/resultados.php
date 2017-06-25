@@ -138,7 +138,7 @@
 			</div>
 		</div>
 		<!-- Parte Central -->
-		<div class="col-md-8 borde1" >
+		<div class="col-md-7 borde1" >
 			<div class="row">
 				<div class="col-md-12" style="padding: 15 15 0 0px; margin: 0px;">
 					<div class="col-md-5">
