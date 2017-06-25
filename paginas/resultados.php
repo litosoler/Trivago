@@ -118,7 +118,7 @@
 	<div class="row">
 		<div class="col-md-1"></div>
 		<!-- Barra Izquierda -->
-		<div class="col-md-3" >
+		<div class="col-md-3">
 			<div id="barra-izquierda" >
 			<div id="cuadro-mapa-externo">
 					<div id="cuadro-mapa">
@@ -256,14 +256,14 @@
 								<a href="#" style="color: #37454d;  text-decoration:none;"><strong>Más ofertas: 23</strong></a>
 							</div>
 						</div>
-						<div class="col-md-3 borde2">
+						<div class="col-md-3 borde2" style="margin-top: 38px;">
 							<div class="bloque-no-linea empresas-mas-comoda">
 								<a href="#" style="color: #697379;">
 									<p class="sinborde " style="font-weight: lighter; color:  #37454d; font-size: 12px; margin-left: 8px;">HotWired </p>
 									<p class="centrado" style="font-weight: 800; color: #66a400">$234.009</p> 
 								</a>
 							</div>
-							<div class="bloque-no-linea" style="margin-left: 11px; padding-top: 30px;">
+							<div class="bloque-no-linea" style="margin-left: 10px; padding-top: 30px;">
 								<button href="#" id="ir-oferta" style="color: white;"><strong>
 									<div class="bloque-en-linea" style="margin-left: 25px;"> <strong>Ver oferta</strong></div>
 									<div class="bloque-en-linea" style="margin-left: 35px;"><span class="glyphicon glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>

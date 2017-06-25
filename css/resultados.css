@@ -272,14 +272,17 @@ border-left: 1px solid #EBECED;
 		width: 2em;
 		height: 2em;
 		border: 0px;
-		padding-left: 15px;
+		padding-lef: 15px;
 		color: white;
 		padding-top: 4px;
 		padding-left: 5.5px;
+		font-size: 12px;
 }
 
 .rating-div-op{
 	padding-top: 4px;
+	font-size: 14px;
+	padding-right: 0px;
 }
 
 #font-wifi{
@@ -318,7 +321,7 @@ border-left: 1px solid #EBECED;
 	font-size: 11px;
 	width: 100px;
 	margin: 0px;
-	margin-left: 47px;
+	margin-left: 35px;
 }
 
 .centrado{
@@ -339,7 +342,7 @@ border-left: 1px solid #EBECED;
 	font-size: 16px;
 	width: 100px;
 	margin: 0px;
-	margin-left: 31px;
+	margin-left: 53px;
 }
 
 #barra-izquierda{
