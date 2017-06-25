@@ -182,7 +182,10 @@
 				</div>
 			</div>
 
-			<div id="contenedor-informacion-hoteles">
+
+			<div id="contenedor-informacion-hoteles" class="container-fluid">
+
+			    <!--Inicio de la Etiqueta del Hotel-->
 				<div class="row">
 					<div class="col-md-12 well cont-inf-hot">
 						<div class="col-md-2 borde2"><img src="../img/imagen-prueba.jpg" class="img-responsive img"></div>
@@ -241,11 +244,11 @@
 						<div class="col-md-3 borde2">
 							<div class="bloque-no-linea empresas-mas-comoda">
 								<a href="#" style="color: #697379;">
-									<p class="sinborde centrado" style="font-weight: lighter;">HotWired </p>
-									<p class="centrado" style="font-weight: 800;">$234.009</p> 
+									<p class="sinborde " style="font-weight: lighter; color:  #37454d; font-size: 12px; margin-left: 8px;">HotWired </p>
+									<p class="centrado" style="font-weight: 800; color: #66a400">$234.009</p> 
 								</a>
 							</div>
-							<div class="bloque-no-linea" style="margin-left: 10px;">
+							<div class="bloque-no-linea" style="margin-left: 10px; padding-top: 30px;">
 								<button href="#" id="ir-oferta" style="color: white;"><strong>
 									<div class="bloque-en-linea" style="margin-left: 25px;"> <strong>Ver oferta</strong></div>
 									<div class="bloque-en-linea" style="margin-left: 35px;"><span class="glyphicon glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
@@ -253,7 +256,68 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-md-12" id="div-opciones">
+						<div class="separador bloque-no-linea row"></div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="bloque-en-linea col-md-7" style="margin-right: 73px"></div>
+						<div class="bloque-en-linea col-md-1 sinborde3" style="align-content: right">
+							<div  style="width: 100%; margin-left:0px;"> 
+							<a href="#" class="menu-desplegable" id="dropdownMenu1-compartir" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 25px; text-decoration:none; color: #37454d; border: 0px; border-right: 2px solid #cdd0d2; padding-right: 10px">
+								Compartir
+							</a>
+							<!--Este es el menu despegable de compartir-->
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenu1-compartir" style="width: 270px; height: 330px; padding: 0.5em;">
+								<li class="sinborde"><h3 class="h3-estilo1 sinborde2" style="">Comparte esta lista</h3></li>    
+								<li role="separator" class="divider sinborde"></li>
+
+								<li class="estilo-dropdown-menu" style="background-color: #5c6368;">
+									<a href="#" style="color: #fff; font-weight: 700; font-size: 14px; line-height: 11px; vertical-align: center; background-color: #5c6368; ">
+										<span class="glyphicon glyphicon-envelope" aria-hidden="true" style="font-size: 15px;"></span> 
+										Compartir por email
+									</a>
+								</li>    								
+								<li class="estilo-dropdown-menu" style="background-color: #3b589b; width: 98%">
+									<a href="#" style="background-color: #3b589b; color: #fff; font-weight: 700; font-size: 14px; line-height: 11px; vertical-align: center;">
+										<font style="font-size: 23px; background-color: #3b589b; ">f</font> 
+										Compartir en Facebook
+									</a>
+								</li>    								
+								<li class="estilo-dropdown-menu" style="background-color: #c94334; width: 98%">
+									<a href="#" style="color: #fff; font-weight: 700; font-size: 14px; line-height: 11px; vertical-align: center; background-color: #c94334;">
+										<font style="font-size: 23px; background-color: #c94334; ">G+</font> 
+										Compartir en Google+
+									</a>
+								</li>    								
+								<li class="estilo-dropdown-menu" style="background-color: #20ade5; width: 98%">
+									<a href="#" style="color: #fff; font-weight: 700; font-size: 14px; line-height: 11px; vertical-align: center; background-color: #20ade5;">  
+										<img src="../img/twitter-logo.gif" style="height: 20px; width: 25px; display: inline-block;" class="img-responsive"> 
+										<p style="display: inline-block;">Compartir en Twitter</p>
+									</a>
+								</li>    								
+								<li class="estilo-dropdown-menu" style="width: 98%; font-size: 12px;" >Copie y pegue el enlace para compartir su lista de hoteles con otros<br> <input type="url" readonly="readonly" id="enlace-compartir" class="i-compartir-enlace" value="http://www.diez.hn/">
+								</li>
+							</ul>
+						</div>
+						</div>
+						<div class="bloque-en-linea col-md-3 sinborde3" style="align-content: right; margin-left: 20px; width: 140px;">
+							<a href="#" class="menu-desplegable" id="detalles" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 25px; text-decoration:none; color: #37454d; border: 0px;">
+								Detalles del hotel
+							</a>
+						</div>
+						<div class="bloque-en-linea col-md-1 sinborde3" style="align-content: right; margin-left: 3px; width: 2px;">
+							<span class="glyphicon glyphicon glyphicon-remove btn-default" id="cerrar-opciones" >
+						</div>
+							</div>
+						</div>
+						<!--Inicia el div que cambia dependiendo de las opciones-->
+						<div id="div-empresas-varias">
+							aewefwefewwfw
+						</div>
+					</div>
 				</div>
+				<!--Fin de la etiquta del hotel-->
+
 			</div>
 		</div>
 		<div class="col-md-2"></div>
