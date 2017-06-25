@@ -146,7 +146,7 @@
 					</div>
 					<div class="col-md-5" >
 						<!--Este es el select de ordenar informacion-->
-						<select id="odernar-por" title="ordenar-por" class="selectpicker flecha menu-desplegable" style="width: 80%; margin-left: 123px;">
+						<select id="odernar-por" title="ordenar-por" class="selectpicker flecha menu-desplegable" style="width: 80%; margin-left: 100px;">
 							<option value="o-popularidad">Ordenar por popularidad</option>
 							<option value="p-valorizacion">Priorizar por valorización</option>
 							<option value="p-precio">Priorizar por precio</option>
@@ -156,7 +156,7 @@
 					</div>
 					<div class="col-md-2">
 						<div class="dropdown" style="width: 100%;"> 
-							<button class="btn btn-default menu-desplegable" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 40px;">
+							<button class="btn btn-default menu-desplegable" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 21px;">
 								Compartir
 								<strong><span class="glyphicon glyphicon-menu-down" aria-hidden="true"	></span></strong>
 							</button>
@@ -278,7 +278,7 @@
 								<div class="bloque-en-linea col-md-7" style="margin-right: 73px"></div>
 						<div class="bloque-en-linea col-md-1 sinborde3" style="align-content: right">
 							<div  style="width: 100%; margin-left:0px;"> 
-							<a href="#" class="menu-desplegable" id="dropdownMenu1-compartir" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 55px; text-decoration:none; color: #37454d; border: 0px; border-right: 2px solid #cdd0d2; padding-right: 10px">
+							<a href="#" class="menu-desplegable" id="dropdownMenu1-compartir" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 30px; text-decoration:none; color: #37454d; border: 0px; border-right: 2px solid #cdd0d2; padding-right: 10px">
 								Compartir
 							</a>
 							<!--Este es el menu despegable de compartir-->
@@ -315,7 +315,7 @@
 							</ul>
 						</div>
 						</div>
-						<div class="bloque-en-linea col-md-3 sinborde3" style="align-content: right; margin-left: 35px; width: 140px;">
+						<div class="bloque-en-linea col-md-3 sinborde3" style="align-content: right; margin-left: 15px; width: 140px;">
 							<a href="#" class="menu-desplegable" id="detalles" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 30px; text-decoration:none; color: #37454d; border: 0px;">
 								Detalles del hotel
 							</a>
