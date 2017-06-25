@@ -262,7 +262,7 @@
 								<div class="bloque-en-linea col-md-7" style="margin-right: 73px"></div>
 						<div class="bloque-en-linea col-md-1 sinborde3" style="align-content: right">
 							<div  style="width: 100%; margin-left:0px;"> 
-							<a href="#" class="menu-desplegable" id="dropdownMenu1-compartir" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 75px; text-decoration:none; color: #37454d; border: 0px; border-right: 2px solid #cdd0d2; padding-right: 10px">
+							<a href="#" class="menu-desplegable" id="dropdownMenu1-compartir" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 55px; text-decoration:none; color: #37454d; border: 0px; border-right: 2px solid #cdd0d2; padding-right: 10px">
 								Compartir
 							</a>
 							<!--Este es el menu despegable de compartir-->
@@ -299,7 +299,7 @@
 							</ul>
 						</div>
 						</div>
-						<div class="bloque-en-linea col-md-3 sinborde3" style="align-content: right; margin-left: 55px; width: 140px;">
+						<div class="bloque-en-linea col-md-3 sinborde3" style="align-content: right; margin-left: 35px; width: 140px;">
 							<a href="#" class="menu-desplegable" id="detalles" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: white; margin-left: 30px; text-decoration:none; color: #37454d; border: 0px;">
 								Detalles del hotel
 							</a>
@@ -376,7 +376,7 @@
 
 							</div>
 
-							<div class="fotos-hotel">
+							<div class="fotos-hotel-opcion">
 								<div class="carusel-fotos-hotel">
 									<div id="carusel-carusel-fotos-hotel" class="carousel slide" data-ride="carousel">
   										<!-- Indicators -->
@@ -410,7 +410,20 @@
 								</div>
 							</div>
 
+							<div class="opiniones-opcion">
+								<div class="puntuacion-general bloque-no-linea">
+									<div class="titulo-opinion-opcion bloque-no-linea"></div>
+									<div class="cuerpo-opinion-opcion bloque-no-linea">
+										<div class="col-md-12">
+											<div class="col-md-4"></div>
+											<div class="col-md-8"></div>
+										</div>
+									</div>
+								</div>
+								<div class="opiniones-usuarios bloque-no-linea"></div>
 
+
+							</div>
 
 							<!--Fin de las opciones-->
 							<div class="row">
