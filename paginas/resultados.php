@@ -316,10 +316,10 @@
 							<div class="oferta-empresas-opcion">
 								<div class="empresa">
 										<div class="col-md-12" style="height: 90%;">
-											<div class="col-md-2" style="height: 100%;">
+											<div class="col-md-2 alto-100">
 												<img src="../img/expedia.png" class="img-responsive img-empresa">
 											</div>
-											<div class="col-md-8 inf-opcion-empresa" style="height: 100%;">
+											<div class="col-md-8 inf-opcion-empresa alto-100">
 												<div class="bloque-no-linea"><p class="estilo-plan-empresa">Programa del plan de la empresa</p></div>
 												<div class="bloque-no-linea"><p class="estilo-oferta-empresa">Algo que ofrezca gratis</p></div>
 											</div>
@@ -331,10 +331,10 @@
 
 								<div class="empresa">
 										<div class="col-md-12" style="height: 90%;">
-											<div class="col-md-2" style="height: 100%;">
+											<div class="col-md-2 alto-100">
 												<img src="../img/expedia.png" class="img-responsive img-empresa">
 											</div>
-											<div class="col-md-8 inf-opcion-empresa" style="height: 100%;">
+											<div class="col-md-8 inf-opcion-empresa alto-100">
 												<div class="bloque-no-linea"><p class="estilo-plan-empresa">Programa del plan de la empresa</p></div>
 												<div class="bloque-no-linea"><p class="estilo-oferta-empresa">Algo que ofrezca gratis</p></div>
 											</div>
@@ -346,10 +346,10 @@
 
 								<div class="empresa">
 										<div class="col-md-12" style="height: 90%;">
-											<div class="col-md-2" style="height: 100%;">
+											<div class="col-md-2 alto-100">
 												<img src="../img/expedia.png" class="img-responsive img-empresa">
 											</div>
-											<div class="col-md-8 inf-opcion-empresa" style="height: 100%;">
+											<div class="col-md-8 inf-opcion-empresa alto-100">
 												<div class="bloque-no-linea"><p class="estilo-plan-empresa">Programa del plan de la empresa</p></div>
 												<div class="bloque-no-linea"><p class="estilo-oferta-empresa">Algo que ofrezca gratis</p></div>
 											</div>
@@ -361,10 +361,10 @@
 
 								<div class="empresa">
 										<div class="col-md-12" style="height: 90%;">
-											<div class="col-md-2" style="height: 100%;">
+											<div class="col-md-2 alto-100">
 												<img src="../img/expedia.png" class="img-responsive img-empresa">
 											</div>
-											<div class="col-md-8 inf-opcion-empresa" style="height: 100%;">
+											<div class="col-md-8 inf-opcion-empresa alto-100">
 												<div class="bloque-no-linea"><p class="estilo-plan-empresa">Programa del plan de la empresa</p></div>
 												<div class="bloque-no-linea"><p class="estilo-oferta-empresa">Algo que ofrezca gratis</p></div>
 											</div>
@@ -420,7 +420,12 @@
 										</div>
 									</div>
 								</div>
-								<div class="opiniones-usuarios bloque-no-linea"></div>
+								<div class="opiniones-usuarios bloque-no-linea">
+									<div class="titulo-opinion-opcion bloque-no-linea"></div>
+									<div class="cuerpo-opinion-opcion bloque-no-linea">
+										
+									</div>
+								</div>
 
 
 							</div>
