@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="../img/logo-trivago2.png">
+	<link rel="shortcut icon" href="../img/logo-trivago.png">
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -126,15 +126,30 @@
 					</div>
 				</div>
 				<!-- la en como prefijo de los nombre significa que son los contenedores de los filtros. -->
-				<div id="cuadro-filtro">
-					<div id="c-estrellas"></div>
-					<div id="c-puntuacion"></div>
-					<div id="c-precio"></div>
-					<div id="c-distancia"></div>
-					<div id="c-mas-buscado"></div>
-					<div id="c-busacdor-nomnbre"></div>
-					<div id="c-borrar-filtros"></div>
-				</div>
+				<!-- <div id="cuadro-filtro"> -->
+					<div id="c-titulo-filtro" class="cuadro-filtro"></div>
+					<div id="c-estrellas" class="cuadro-filtro">
+						<p>Estrellas</p>
+					</div>
+					<div id="c-puntuacion" class="cuadro-filtro">
+						<p>Puntuaciòn</p>
+					</div>
+					<div id="c-precio" class="cuadro-filtro">
+						<p>Precio</p>						
+					</div>
+					<div id="c-distancia" class="cuadro-filtro">
+						<p>Distancia desde</p>						
+					</div>
+					<div id="c-mas-buscado" class="cuadro-filtro">
+						<p>Lo màs buscado</p>
+					</div>
+					<div id="c-busacdor-nomnbre" class="cuadro-filtro">
+						<p>buscar nombre de hotel</p>
+					</div>
+					<div id="c-borrar-filtros" class="cuadro-filtro">
+						<button>Borrar todos los filtros</button>
+					</div>
+				<!-- </div> -->
 			</div>
 		</div>
 		<!-- Parte Central -->

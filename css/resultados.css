@@ -355,12 +355,14 @@ border-left: 1px solid #EBECED;
 	height: 100px;
 	padding-top: 31px;
 }
-#cuadro-filtro{
+.cuadro-filtro{
 	background-color: white;
-	height: 880px;
-	margin-top: 12px;
-	box-shadow: 1px 1px 6px #888888;	
+	box-shadow: 1px 1px 6px #888888;
+	padding: 14px;	
+	font-weight: bold;
+	font-size: 13px;
 }
+
 #btn-mapa{
 	height: 38px;
 	width: 90px;
@@ -375,26 +377,30 @@ border-left: 1px solid #EBECED;
 	background-color: white;
 	padding: 6px;
 }
-#estrellas{
-	
+#c-titulo-filtro{
+	margin-top: 12px;
+	height: 45px;
 }
-#puntuacion{
-	
+#c-estrellas{
+	height: 92px;
 }
-#precio{
-	
+#c-puntuacion{
+	height: 92px;
 }
-#distancia{
-	
+#c-precio{
+	height: 130px;
 }
-#mas-buscado{
-	
+#c-distancia{
+	height: 225px;
 }
-#busacdor-nomnbre{
-	
+#c-mas-buscado{
+	height: 118px;
 }
-#borrar-filtros{
-
+#c-busacdor-nomnbre{
+	height: 100px;
+}
+#c-borrar-filtros{
+	height: 78px;
 }
 
 #div-opciones{
