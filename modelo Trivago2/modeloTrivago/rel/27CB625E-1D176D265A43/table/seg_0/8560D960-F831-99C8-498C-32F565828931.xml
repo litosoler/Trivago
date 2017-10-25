@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8560D960-F831-99C8-498C-32F565828931" name="TBL_EMPRESAS_WEB">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:54:41 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

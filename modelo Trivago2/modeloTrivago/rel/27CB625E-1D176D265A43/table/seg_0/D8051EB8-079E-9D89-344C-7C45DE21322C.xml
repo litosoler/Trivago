@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8051EB8-079E-9D89-344C-7C45DE21322C" name="TBL_TIPHAB_X_HOTEL">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:07:02 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_HABITACION" id="A6E33243-59EE-7842-C01A-B6D6DEA7FDED">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:08:14 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1550351F-E908-25A8-C6A5-0B13797EC6D2" referredColumn="7D7EBFD7-718F-1E75-A1C6-A0508ACE5CF9"/>
+</associations>
+</Column>
+<Column name="CODIGO_HOTEL" id="AAF0CAEA-503A-03CB-B6D9-7E83D399B68A">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:08:26 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2055A046-05A3-8DB8-8F90-B5AED032A9A7" referredColumn="B0106D3C-F4BD-506D-809A-15214150A682"/>
+</associations>
+</Column>
+<Column name="PORCENTAJE_CAMBIO" id="5B4EB287-14FA-3544-9FC3-2BF40833495F">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:22:52 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2E431E7-E843-A92E-C64D-A3307B10B622" name="TBL_TIPHAB_X_HOTEL_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:08:44 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6E33243-59EE-7842-C01A-B6D6DEA7FDED"/>
+<colUsage columnID="AAF0CAEA-503A-03CB-B6D9-7E83D399B68A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FD59C42-C326-DAC5-FE23-268ACBBE9360" name="TBL_TIPHAB_X_HOTEL_TBL_TIPO_HABITACION_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:08:14 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6E33243-59EE-7842-C01A-B6D6DEA7FDED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F52CA9D-F041-BCAD-072E-5D1C2517580F" name="TBL_TIPHAB_X_HOTEL_TBL_HOTELES_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-25 23:08:26 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAF0CAEA-503A-03CB-B6D9-7E83D399B68A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

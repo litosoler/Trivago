@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="0272D30E-5BFF-B067-373D-630DFA349035">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 06:46:23 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

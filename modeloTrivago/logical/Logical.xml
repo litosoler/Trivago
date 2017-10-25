@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E7884604-1080-35F8-445E-5114D4CEF3C3" mainViewID="1FC07D86-6EC9-36ED-AF33-BFD5AC82C246">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 06:46:22 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

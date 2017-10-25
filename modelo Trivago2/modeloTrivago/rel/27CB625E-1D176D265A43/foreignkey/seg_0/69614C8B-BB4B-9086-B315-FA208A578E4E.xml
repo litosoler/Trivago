@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69614C8B-BB4B-9086-B315-FA208A578E4E" containerWithKeyObject="12D3845A-32A8-BE18-4576-B2F4F5471B00" localFKIndex="856A6260-4979-D6AE-6540-F401F0868FF5" name="TBL_HOTELERO_TBL_PERSONA_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:15:40 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<referredTableLongName>TBL_PERSONA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47C0F681-E973-85DF-3B2F-CBEC82056456</referredTableID>
+<keyObject>87332C38-17D2-A925-FA69-1B05F519B96F</keyObject>
+<referredKeyID>87332C38-17D2-A925-FA69-1B05F519B96F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PERSONA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

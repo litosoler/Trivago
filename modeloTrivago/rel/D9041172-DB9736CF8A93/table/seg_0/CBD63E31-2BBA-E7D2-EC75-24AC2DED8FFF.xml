@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBD63E31-2BBA-E7D2-EC75-24AC2DED8FFF" name="TBL_Tipo_Servicio">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 19:05:42 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_tipo_servicio" id="26670B53-9A85-FFF2-DFE8-A118EDA7D84B">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 19:07:09 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_servicio" id="47951ADD-7593-C4E5-9882-10837E8C2F18">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 19:07:38 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F42FE5E-73CF-D502-1437-DB29CDFAB02A" name="TBL_Tipo_Servicio_PK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 19:07:38 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26670B53-9A85-FFF2-DFE8-A118EDA7D84B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

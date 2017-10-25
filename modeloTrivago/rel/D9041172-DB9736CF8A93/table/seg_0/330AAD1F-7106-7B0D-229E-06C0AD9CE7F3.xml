@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="330AAD1F-7106-7B0D-229E-06C0AD9CE7F3" name="TBL_Ciudad">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 18:45:15 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_ciudad" id="5FE89212-CF7D-2E70-2BC8-3ED9D6B020AB">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 18:45:37 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_ciudad" id="40F3EC88-2170-B3FA-5A70-635655000BCC">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 18:45:53 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_pais" id="DCF195A8-AE24-1A43-2BDD-C181523170C2">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 18:46:01 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D687562-CED2-3504-300D-52AAF16CBAC2" referredColumn="6FF8835E-C206-5388-18DF-B8631F3D5EC0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38CC902A-2081-1D1B-4467-C3A2F1252267" name="TBL_Ciudad_PK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 18:45:37 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FE89212-CF7D-2E70-2BC8-3ED9D6B020AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4420626-101A-5CD5-FED8-3061FBB5002B" name="TBL_Ciudad_TBL_Pais_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 18:46:01 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCF195A8-AE24-1A43-2BDD-C181523170C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

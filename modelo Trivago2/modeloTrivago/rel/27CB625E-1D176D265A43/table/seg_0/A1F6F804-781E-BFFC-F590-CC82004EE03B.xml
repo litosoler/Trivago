@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1F6F804-781E-BFFC-F590-CC82004EE03B" name="TBL_ADMINISTRADOR">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:17:52 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TBL_PERSONA_CODIGO_PERSONA" id="9BF86B76-F434-9B1A-21FE-B2D6257D9075">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:18:21 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93B3526F-FFEC-C08A-C82D-95D20AF0D5C3" referredColumn="6EEC7C65-A997-35B6-5EA4-DF5B84195C96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="644CCDBA-79AA-EE39-7F63-8D3A5D00D0DA" name="TBL_ADMINISTRADOR__IDX">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:18:37 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BF86B76-F434-9B1A-21FE-B2D6257D9075"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DC4C28A-C7CC-65BF-963C-275A94D04EFC" name="TBL_ADMINISTRADOR_TBL_PERSONA_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:18:21 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BF86B76-F434-9B1A-21FE-B2D6257D9075"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="422A7808-9428-4086-C0B3-D0A86AFFFFD7" name="TBL_LUGARES">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:21:02 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGARES" id="EDD1D6B0-A6BC-CE5A-E5EB-B0DBD0617FB0">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:22:22 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CIUDAD" id="153B6813-4356-335C-A22C-B5748F070E91">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:25:10 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="047CE4A0-B6D9-D3BE-685B-3437CA901BCE" referredColumn="212A244B-EA90-C04C-97E4-329B18A2DD24"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A76B6E29-3272-2EE4-D265-AB3079B4DCC4" name="TBL_LUGARES_PK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:22:22 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDD1D6B0-A6BC-CE5A-E5EB-B0DBD0617FB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74F462F6-DA5A-36A8-BFFC-FE2722D2B20C" name="TBL_LUGARES_TBL_CIUDAD_FK">
+<createdBy>rened</createdBy>
+<createdTime>2017-10-23 21:25:10 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="153B6813-4356-335C-A22C-B5748F070E91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

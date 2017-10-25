@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="810BA139-29CA-7495-090B-1D455DA49564" name="TBL_Hotelero">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 22:35:31 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_persona" id="EA748B24-4BA1-8D73-DF49-39DC6EE06339">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 22:37:21 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6A0B506-70E1-96E4-81FB-BD39C1728499" referredColumn="3DF13C9E-7959-D50F-967E-D5E3508C992D"/>
+</associations>
+</Column>
+<Column name="codigo_hotel" id="BBF6929B-77F3-AA28-79F3-4D7896406845">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 22:41:26 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD469A57-C5FB-1CC6-F7C7-A37A7E7F4C6F" referredColumn="A8C24F35-90BC-A038-6BD2-DA80A8790AB1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC01E9AE-A83F-9179-B6D7-C8B6D175D997" name="TBL_Hotelero__IDX">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 22:37:34 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA748B24-4BA1-8D73-DF49-39DC6EE06339"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43B227FD-DA55-4DBE-6497-59E3BA96B765" name="TBL_Hotelero_TBL_Persona_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 22:37:21 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA748B24-4BA1-8D73-DF49-39DC6EE06339"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16AC3B97-3F6E-7F7F-1607-E5CCA90258B5" name="TBL_Hotelero_TBL_Hotel_FK">
+<createdBy>Josue</createdBy>
+<createdTime>2017-10-19 22:41:26 UTC</createdTime>
+<ownerDesignName>modeloTrivago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBF6929B-77F3-AA28-79F3-4D7896406845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
