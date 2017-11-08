@@ -1,0 +1,18 @@
+#contenedor_general{
+	width: 100%;
+	max-width: 2000px;
+	box-sizing: border-box;
+}
+
+#barra-horizontal{
+	width: 100%;
+}
+
+.menu{
+	width: 100%;
+	padding: 0px;
+}
+
+#menu-principal{
+	padding: 0px;
+}
