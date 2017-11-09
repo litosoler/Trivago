@@ -94,14 +94,14 @@
                 			</div>
                 			<div class="form-group">
                   				<label for="pwd">Contraseña:</label>
-                  				<p style="float: right;"><a href="olviso_contrasena.php"> ¿Olvidaste tu contraseña?</a></p>
+                  				<p style="float: right;"><a href="olvido_contrasena.php"> ¿Olvidaste tu contraseña?</a></p>
                   				<input type="password" class="form-control" id="pwd">
                 			</div>
                				<div class="checkbox">
                   				<label><input type="checkbox"> Mostrar contraseña</label>
                   				<label><input type="checkbox"> Recordar mis datos</label>
                 			</div>
-                			<button id="iniciar-sesion" class="btn btn-primary btn-lg botonderecha"  onClick=" window.location.href='pagina_inicio.php' " >Iniciar sesion</button>
+                			<button id="btn-iniciar-sesion" class="btn btn-primary btn-lg botonderecha" >Iniciar sesion</button>
                 		</div>
          			</div>
       			</div>      
