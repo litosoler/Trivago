@@ -28,12 +28,12 @@
 
   <body>
 	<!-- barra superior primera -->
-   <div class="contenedor_general">	
+   <div class="contenedor_general" style="z-index: 0">	
    	      <?php
 			include_once("menu_principal.php");
 		 ?>
 
-    <div class="container">
+    <div class="container" style="z-index: 0;">
     	<div class="row">
     		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     			<div class="trivago">

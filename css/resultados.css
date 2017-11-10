@@ -69,6 +69,8 @@ border-left: 1px solid #EBECED;
 #buscar{
 	border-radius: 0px;
 	height: 40px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 #fecha-entrada{
 	padding-top: 10px;
@@ -490,3 +492,105 @@ border-left: 1px solid #EBECED;
 .alto-100{
 	height: 100%;
 }
+
+.opciones-de-hotel{
+	padding: 0px;
+	padding-top: 13px;
+	margin-right: 0px; 
+	height: 100%;
+	color: #a9a8a8;
+}
+
+.opciones-de-hotel:hover{
+	background-color: #ece8e7;
+	border-radius: 0px;
+	color: #333;
+}
+
+.boxes{
+	border: 1px solid #cdd0d2;
+}
+
+.opinion-class{
+	width: 100%;
+	padding-bottom: 20px;
+	height: 100%
+}
+
+@media screen and (max-width: 500px;){	
+	#buscar{
+		width: 15%;
+		height: 40px;
+		padding: 0px;
+		margin: 0px;
+		vertical-align: top;
+		font-size: 9px;
+	}
+}
+
+@media screen and (max-width: 990px){
+	#filtros{
+		left: -210px;
+		position: absolute;
+		z-index: 2;
+	}
+
+	#filtros:hover{
+		left: 0%;
+	}
+
+	#parte-central{
+		padding-left: 40px;
+	}
+
+	#linea1{
+		width: 100%;
+		padding: 20px;
+	}
+	#linea2{
+		width: 100%;
+		padding: 20px;
+		padding-top: 0px;
+	}
+
+	#barra-horizontal2{
+		height: 280px;
+	}
+
+	#barra-busqueda{
+		width: 83%;
+		height: 40px;
+		margin: 0px;
+	}
+
+	#buscar{
+		width: 15%;
+		height: 40px;
+		padding: 0px;
+		margin: 0px;
+		vertical-align: top;
+	}
+
+	#fecha-entrada{
+		width: 100%;
+	}
+
+	#fecha-salida-div{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		margin-top: 15px;
+	}
+
+	#numero-personas-div{
+		margin-top: 15px;
+		width: 100%
+	}
+
+	#numero-personas{
+		width: 100%;
+	}
+
+}
+
+

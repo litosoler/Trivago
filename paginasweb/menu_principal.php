@@ -85,8 +85,8 @@
 				</div>
 			</div>
 		</div>
-		<header id="menu-principal2" class="col-md-2 container-fluid">
-			<ul style="padding-left: 0px; ">
+		<header id="menu-principal2" class="col-md-2 container-fluid" style="background-color: white; position: absolute; z-index: 1;">
+			<ul style="padding-left: 0px;">
 				<li id="li1" class="ico-">
 					<a href="#" id="favoritos2" class="enlaces_menu2 btn dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-heart-empty"></span> Favoritos </a>
 					<ul id="favoritos2-dropdown-menu" class="dropdown-menu">
