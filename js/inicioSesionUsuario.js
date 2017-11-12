@@ -2,14 +2,17 @@ $(document).ready(function(){
    $("#btn-iniciar-sesion").click(function(){ 	
    	if ($("#pwd").val()!="" && $("#correo").val()!="" ) {		
    		$.ajax({
-		url:"../procesamiento/proceso_inicio_sesion.php",
-		data: 'contra='+$("#pwd").val()+ '& nombre='+$("#correo").val(),
+		url:"../class/prueba.php",
+		data: 'contra='+$("#pwd").val()+ '& correo='+$("#correo").val(),
 		method: "POST",
 		dataType:"json",
-		success: function(data){
+		beforeSens: function () {
+			alert("dsgadgdashdg");
+		}
+		success: function(result){
 			if (data.exito==1) {
 				window.location.replace("../paginasweb/pagina_inicio.php");
-			}else{ alert(data.mensaje);}
+			}else{ alert(result.mensaje);}
 		}
 	  });
    	}else{
@@ -18,9 +21,3 @@ $(document).ready(function(){
    });
    
 });
-
-/*	if (correo != "" && pwd != ""){
-	window.location.href = "Pagina_Inicio.html"	
-	}
-
-});*/

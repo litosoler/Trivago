@@ -1,33 +1,26 @@
-<?php  
+<?php 
 session_start();
-include_once("../class/class_conexion.php");
+include_once("class_conexion.php");
 $conexion = new Conexion();
 $conexion->establecerConexion();
-$resultado=$conexion->ejecutarInstruccion("SELECT * FROM tbl_usuarios WHERE nombre_usuario='".$_POST['nombre']."'");
+$resultado=$conexion->ejecutarInstruccion("SELECT * FROM TBL_USUARIO");
 $variable['exito']=0;
-$variable['mensaje']="No existe el usuario";
+$variable['mensaje']="Usuario no existe, revise su correo o contraseña que escribió.";
 $b=0;
 $n=0;
-$n1=mysqli_num_rows($resultado);
+$n1=oci_num_rows($resultado);
+$resultadonuevo=oci_fetch_array($resultado);
 
-while ($b==0) {
-	$n=$n+1;
-	$resultadonuevo=$conexion->obtenerFila($resultado);
-	if ($resultadonuevo["contrasenia"] == sha1($_POST["contra"])) {
+while ($resultadonuevo=oci_fetch_array($resultado)!=FALSE) {
+	if ($resultadonuevo["CORREO_ELECTRONICO"] == $_GET["correo"] && $resultadonuevo['CONTRASENIA']==$_GET["contra"]) {
 		$variable['exito']=1;
-		$variable['mensaje']="Usuario encontrado";
-		$_SESSION["codigousuario"]=$resultadonuevo['id'];
-		$_SESSION["nombre"]=$resultadonuevo['nombre_usuario'];
-		$_SESSION["email"]=$resultadonuevo['email'];
-		$_SESSION['contrasena']=$resultadonuevo['contrasenia'];
-		$b=1;
-	}
-
-	if($n==$n1){
-		$b=1;
+		$_SESSION["codigo_usuario"]=$resultadonuevo['CODIGO_USUARIO'];
+		$_SESSION["nombre"]=$resultadonuevo['NOMBRE'];
+		$_SESSION["correo"]=$resultadonuevo['CORREO_ELECTRONICO'];
+		$_SESSION['contrasenia']=$resultadonuevo['CONTRASENIA'];
+		break;
 	}
 }
 
 echo json_encode($variable);
-
-?>
+ ?>
