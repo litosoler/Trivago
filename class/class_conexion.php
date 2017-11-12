@@ -2,11 +2,11 @@
 
 	class Conexion{
 
-		private $usuario="root";
-		private $contrasena="";
-		private $host="localhost";
-		private $baseDatos="bd_amazingbuy";
-		private $puerto="3306";
+		private $usuario="TRIVAGO";
+		private $contrasena="oracle";
+		private $host="localhost/xe";
+		//private $baseDatos="TRIVAGO";
+		//private $puerto="3306";
 		private $link;
 
 		public function __construct(){
@@ -14,11 +14,12 @@
 		}
 
 		public function establecerConexion(){
-			$this->link = mysqli_connect($this->host, $this->usuario, $this->contrasena, $this->baseDatos, $this->puerto);
-
+			$this->link = oci_connect("TRIVAGO", "oracle", "localhost/xe");
 			if (!$this->link){
-				echo "No se pudo conectar con mysql";
+				echo "No se pudo conectar con oracle";
 				exit;
+			}else{
+				echo "Ya pasamos";
 			}
 		}
 
