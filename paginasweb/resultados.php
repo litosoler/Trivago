@@ -489,5 +489,7 @@
 <script type="text/javascript" src="../libs/jquery.js"></script>
 
 <script type="text/javascript" src="../js/resultados.js"></script>
+
+<script type="text/javascript" src="../libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
 </body>
 </html>

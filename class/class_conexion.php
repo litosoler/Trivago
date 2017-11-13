@@ -8,6 +8,7 @@
 		//private $baseDatos="TRIVAGO";
 		//private $puerto="3306";
 		private $link;
+		private $stid;
 
 		public function __construct(){
 			$this->establecerConexion();			
@@ -27,8 +28,11 @@
 			oci_close($this->link);
 		}
 
-		public function ejecutarInstruccion($sql){
-			return oci_execute(oci_parse($this->link,$sql));
+		public function ejecutarInstruccion($link,$sql){
+			$stid = oci_parse($this->link,$sql);
+			oci_execute($stid);
+			return $stid;
+			
 		}
 
 		public function obtenerFila($resultado){
