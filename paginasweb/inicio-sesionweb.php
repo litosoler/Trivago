@@ -117,7 +117,8 @@
     <!-- jquery-->
   	<script type="text/javascript" src="../libs/jquery.js"></script>
   	<!--personales-->
-    <script type="text/javascript" src="../js/inicioSesionUsuario.js"></script>
+    <script type="text/javascript" src="../js/inicioSesion.js"></script>
     <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
 </body>
 </html>

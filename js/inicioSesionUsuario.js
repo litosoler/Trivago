@@ -1,6 +1,6 @@
 $(document).ready(function(){
-   $("iniciar-sesion").click(function(){ 	
-   	if ($("#pwd").val()!="" && $("#correo").val()!="" ) {		
+   $("#btn-niciar-sesion").click(function(){ 	
+   	if ($("#pwd").val()!="" || $("#correo").val()!="" ) {		
    		$.ajax({
 		url:"../class/prueba.php",
 		data: 'contra='+$("#pwd").val()+ '& correo='+$("#correo").val(),
