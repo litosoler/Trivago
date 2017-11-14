@@ -15,14 +15,14 @@ $sql = sprintf("INSERT INTO TBL_USUARIO VALUES ('%s','%s'),",
 $resultado=$conexion->ejecutarInstruccion($sql);
 
 
-$variable["mensaje"]="Error, usuario no encontrado o contraseña incorrecta";
-$resultadonuevo=oci_fetch_array($resultado);
+$variable["mensaje"]="Error, en registros vuelva a comentar";
+//$resultadonuevo=oci_fetch_array($resultado);
 
 //if ($resultadonuevo[1]==$_GET['correo']) {
-	    $_SESSION["codigo_usuario"]=$resultadonuevo[3];
-		$_SESSION["nombre"]=$resultadonuevo[0];
-		$_SESSION["correo"]=$resultadonuevo[1];
-		$_SESSION['contrasenia']=$resultadonuevo[2];
+	    $_SESSION["codigo_usuario"];
+		$_SESSION["nombre"];
+		$_SESSION["correo"];
+		$_SESSION['contrasenia']
 		$variable["exito"]=1;
 		$variable["mensaje"]="Se debe redireccionar";
 //}
