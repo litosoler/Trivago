@@ -109,7 +109,7 @@
         	</div>
         	<div class="row">
    				<div id="registrar"  >
-      				<h5>¿No registrado? <a href="registro-usuario.php">Registrate</a></h5>
+      				<h5>¿No registrado? <a href="registro-usuarios.php">Registrate</a></h5>
     			</div>  
     		</div>
         </div>
