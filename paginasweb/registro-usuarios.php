@@ -13,12 +13,12 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- jquery-->
-  <script type="text/javascript" src="../libs/jquery.js"></script>
+  
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
   <!--bootstrap date picker -->
   <link rel="stylesheet" type="text/css" href="../libs/bootstrap-datepicker/css/bootstrap-datepicker.css">
-  <script type="text/javascript" src="../libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+  
   <!-- nuevos iconos -->
   <link rel="stylesheet" type="text/css" media="all" href="../css/whhg.css" />
   <!-- personales -->
@@ -114,7 +114,7 @@
                 <div class="checkbox">
                   <label><input type="checkbox"> Mostrar contraseña</label>
                 </div>
-                <button id="registrar" class="btn btn-primary btn-lg botonderecha">Registrarme</button>
+                <button id="btn-registrar" class="btn btn-primary btn-lg botonderecha">Registrarme</button>
                </div>
 
                 </div>
@@ -123,7 +123,7 @@
     </div>
     <div class="row">
     <div id="iniciarSesion" class="col-md-offset-5" >
-      <h5>¿Ya tienes cuenta? <a href="inicio-sesion.html">Inicia Sesiòn</a></h5>
+      <h5>¿Ya tienes cuenta? <a href="inicio-sesionweb.php">Inicia Sesión</a></h5>
     </div>  
       
     </div>
@@ -132,6 +132,9 @@
 	<script type="text/javascript" src="../libs/jquery.js"></script>
 	<!--personales-->
     <script type="text/javascript" src="../js/registroUsuario.js"></script>
+    <script type="text/javascript" src="../libs/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
   			   
 </body>
 </html>
