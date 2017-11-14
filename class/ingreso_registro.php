@@ -1,20 +1,11 @@
 <?php
-include_once("class_conexion.php")
+include_once("class_conexion.php");
+$P_CORREO_USUARIO = $_GET['correo'];
+$P_CONTRA = $_GET["contra"];
+echo "sdfsda";
+
 $conexion = new Conexion();
 $conexion->establecerConexion();
-
-$resultado = $conexion->query("SELECT * FROM TBL_USUARIO");
-
-$Correo = $_POST=['correo'];
-$Contrasenia = $_POST=['password'];
-
-if ($conexion->query(INSERT INTO TBL_USUARIO ('CORREO_ELECTRONICO', 'CONTRASENIA') VALUES ( '$Correo','$Contrasenia')) {
-	echo "Insertada con exito";
-
-	
-}else {
-	echo "sdfsfds";
-};
-
+$conexion->ejecutarInstruccion($conexion, EXECUTE SP_REGISTRO_USUARIO ($P_CORREO_USUARIO,$P_CONTRA));
 
 ?>

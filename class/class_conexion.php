@@ -4,7 +4,7 @@
 
 		private $usuario="TRIVAGO";
 		private $contrasena="oracle";
-		private $host="localhost/xe";
+		private $host="localhost/XE";
 		//private $baseDatos="TRIVAGO";
 		//private $puerto="3306";
 		private $link;
@@ -20,7 +20,7 @@
 				echo "No se pudo conectar con oracle";
 				exit;
 			}else{
-				echo "Ya pasamos";
+				//CASI NOS QUEDAMOS POR VOS echo "Ya pasamos";
 			}
 		}
 
@@ -28,7 +28,7 @@
 			oci_close($this->link);
 		}
 
-		public function ejecutarInstruccion($link,$sql){
+		public function ejecutarInstruccion($sql){
 			$stid = oci_parse($this->link,$sql);
 			oci_execute($stid);
 			return $stid;
