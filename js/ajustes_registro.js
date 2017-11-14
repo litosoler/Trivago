@@ -1,5 +1,5 @@
 $(document).ready(function(){
-   $("#btn-registrar").click(function(){ 	
+   $("#btn_guardar_ajustes").click(function(){ 	
    	if ($("#pwd").val()!="" && $("#correo").val()!="" ) {		
    		$.ajax({
 		url:"../class/registro-usuario-procesar.php",
