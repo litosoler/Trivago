@@ -4,11 +4,12 @@ $(document).ready(function(){
    		$.ajax({
 		url:"../class/registro-usuario-procesar.php",
 		data: 'contra=' + $("#pwd").val() + '& correo=' + $("#correo").val(),
-		method: "GET",
+		method: "POST",
 		dataType:"json",
 		success: function(data){
 			if (data.exito==1) {
-				window.location = "../paginasweb/pagina_inicio.php";
+				alert(data.mensaje);
+				window.location = "../ajustes.html";
 			}else{ 
                alert(data.mensaje);
 			}
