@@ -91,8 +91,8 @@
 		            			
 		            			<div class="form-group form-inline prueba-div">
 											  	<p class="ajuste-label" style="display: block;">Sexo</p>
-											    <label><input type="radio" name="rbt-gustos" value="M">    Masculino</label>
-	                  		<label><input type="radio" name="rbt-gustos" value="F">    Femenino</label>
+											    <label><input id="genero" type="radio" name="rbt-gustos" value="M">    Masculino</label>
+	                  		                    <label><input id="genero" type="radio" name="rbt-gustos" value="F">    Femenino</label>
 											</div>
 		            		</div>
 
@@ -100,12 +100,12 @@
 
 										  <div class="form-group form-inline prueba-div">
 										  	<p class="ajuste-label">Nombres (requerido)</p>
-										    <input type="text" class="prueba-div form-control" placeholder="Nombre">
+										    <input id="nombre" type="text" class="prueba-div form-control" placeholder="Nombre">
 										  </div>
 
 										  <div class="form-group form-inline prueba-div">
 										  	<p class="ajuste-label">Apellidos (requerido)</p>
-										  	 <input type="password" class="prueba-div form-control" placeholder="Apellido">
+										  	 <input id="apelido" type="password" class="prueba-div form-control" placeholder="Apellido">
 										  </div>
 
 									 	</div>
@@ -113,7 +113,7 @@
 
 									 	<div class="form-group form-inline prueba-div">
 										  	<p class="ajuste-label">Fecha de Nacimiento</p>
-										    <input type="date" class="prueba-div form-control">
+										    <input type="date" name="mes" step="1" class="prueba-div form-control">
 										</div>
 
 										<div class="form-group form-inline">
@@ -121,25 +121,28 @@
 
 										  <div class="form-group form-inline prueba-div">
 										  	<p class="ajuste-label">Codigo Postal</p>
-										  	 <input type="password" class="prueba-div form-control" placeholder="Apellido">
+										  	 <input id="codigo-postal" type="password" class="prueba-div form-control" placeholder="Apellido">
 										  </div>
 
 									 	</div>
 
 									 	<div class="form-group form-inline">
-									 		<div class="form-group form-inline prueba-div">
-										  	<p class="ajuste-label">Ciudad</p>
-										    <input type="text" class="prueba-div form-control" placeholder="Nombre">
-										  </div>
-
+									 		
 										  <div class="form-group form-inline prueba-div">
-										  	<p class="ajuste-label">País</p>
+										  	<p class="ajuste-label">Ciudad</p>
 										  	<!-- <input type="password" class="prueba-div form-control" placeholder="País"> -->
-										  	 <select class="form-control" id="seleccionar-pais" name="seleccionar-pais">
-										  	 	<option value="none" selected="">Seleccione un País</option>
-													<option value="ar">Argentina</option>
-													<option value="au">Australia</option>
-													<option value="hn">Honduras</option>
+										  	 <select class="form-control" id="seleccionar-ciudad" name="seleccionar-ciudad">
+										  	 	    <option value="none" selected="">Seleccione una Ciudad</option>
+													<?php 
+													  	session_start();
+														include_once("class_conexion.php");
+														$conexion = new Conexion();
+														$sql = "SELECT NOMBRE_CIUDAD FROM TRIVAGO.TBL_CIUDAD";
+														$resultado=$conexion->ejecutarInstruccion($sql);
+														while ($resultadonuevo=oci_fetch_array($resultado)!=FALSE) {
+															echo sprintf("<option value='%s'>'%s'</option>",$resultadonuevo[0],$resultadonuevo[0]);
+														}
+													 ?>
 										  	 	
 										  	 </select>
 										  </div>
@@ -170,7 +173,7 @@
 	            </details>
 	            <!-- /#Tabla 1 -->
 
-	            <!--Tabla 2 -->
+	            <!--Tabla 2 
 	            <details class="cuerpo-ajustes">
 
 	            	<summary class="titulo-tabla-ajustes">
@@ -208,7 +211,7 @@
 	            		<p class="ajuste-label">Actividades recientes</p>
 	            	</div>
 
-	            </details>
+	            </details>-->
 	            <!-- /#Tabla 2 -->
 
 	            </div>

@@ -1,6 +1,6 @@
 $(document).ready(function(){
    $("#btn_guardar_ajustes").click(function(){ 	
-   	if ($("#pwd").val()!="" && $("#correo").val()!="" ) {		
+   	if ($("#genero").val()!="" && $("#nombre").val()!="" && $("#apellido").val()!="" && $("#codigo-postal").val()!=""  && $("#codigo-postal").val()!="" ) {		
    		$.ajax({
 		url:"../class/registro-usuario-procesar.php",
 		data: 'contra=' + $("#pwd").val() + '& correo=' + $("#correo").val(),
