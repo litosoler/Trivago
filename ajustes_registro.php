@@ -140,7 +140,7 @@
 														$sql = "SELECT NOMBRE_CIUDAD FROM TRIVAGO.TBL_CIUDAD";
 														$resultado=$conexion->ejecutarInstruccion($sql);
 														while ($resultadonuevo=oci_fetch_array($resultado)!=FALSE) {
-															echo sprintf("<option value='%s'>'%s'</option>",$resultadonuevo[0],$resultadonuevo[0]);
+															echo "<option value='$resultadonuevo[0]'>'$resultadonuevo[0]'</option>";
 														}
 													 ?>
 										  	 	

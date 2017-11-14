@@ -16,6 +16,7 @@ $resultado=$conexion->ejecutarInstruccion($sql);
 
 $variable["mensaje"]="Error, usuario no encontrado o contraseña incorrecta";
 $resultadonuevo=oci_fetch_array($resultado);
+echo $resultadonuevo[];
 
 if ($resultadonuevo[1]==$_GET['correo']) {
 	    $_SESSION["codigo_usuario"]=$resultadonuevo[3];
