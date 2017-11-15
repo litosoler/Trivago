@@ -24,6 +24,11 @@
 			}
 		}
 
+		public function retornaConexion(){
+			return $this->link;	
+			
+		}
+
 		public function cerrarConexion(){
 			oci_close($this->link);
 		}

@@ -1,23 +1,20 @@
-$(document).ready(function(){
-   $("#btn_guardar_ajustes").click(function(){ 	
-   	if ($("#genero").val()!="" && $("#nombre").val()!="" && $("#apellido").val()!="" && $("#codigo-postal").val()!=""  && $("#codigo-postal").val()!="" ) {		
-   		$.ajax({
-		url:"../class/registro-usuario-procesar.php",
-		data: 'contra=' + $("#pwd").val() + '& correo=' + $("#correo").val(),
-		method: "POST",
-		dataType:"json",
-		success: function(data){
-			if (data.exito==1) {
-				alert(data.mensaje);
-				window.location = "../ajustes_registro.html";
-			}else{ 
-               alert(data.mensaje);
-			}
-		},
-	 });
-   	}else{
-   	 alert("Falta completar al menos uno de los campos");
-   	}
-   });
-   
+$("#btn_guardar_ajustes").click(function(){ 	
+	if ($("#nombre").val() && $("#apelido").val()) {		
+	$.ajax({
+	 url:"../class/registro-ajustes-procesar.php",
+	 data: 'nombre=' + $("#nombre").val() + '&apellido=' + $("#apelido").val(),
+	 method: "GET",
+	 dataType:"json",
+	 success: function(data){
+		 if (data.exito==1) {
+			 alert(data.mensaje);
+			 window.location = "../paginasweb/pagina_inicio.html";
+		 }else{ 
+			alert(data.mensaje);
+		 }
+	 },
+  });
+	}else{
+	 alert("Falta completar al menos uno de los campos");
+	}
 });
