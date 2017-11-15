@@ -10,14 +10,13 @@ $a = $_GET["nombre"];
 $b = $_GET["apellido"];
 $c = $_GET["ciudad"];
 $d = $_GET["postal"];
-//$e = $_GET["ciudad"];
 $f = $_GET["direccion"];
 
 
-$correo = $_GET['correo'];
-//$correo= $_SESSION['correo'];
-$contra = $_GET['contra'];
-//$contra = $_SESSION['contrasenia'];
+//$correo = $_GET['correo'];
+$correo= $_SESSION['correo'];
+//$contra = $_GET['contra'];
+$contra = $_SESSION['contrasenia'];
 
 
 $sql1= "SELECT NOMBRE FROM TRIVAGO.TBL_USUARIO";

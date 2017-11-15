@@ -9,7 +9,7 @@ $(document).ready(function(){
 		success: function(data){
 			if (data.exito==1) {
 				alert(data.mensaje);
-				window.location = "../ajustes_registro.php";
+				window.location = "../ajustes_registro.html";
 			}else{ 
                alert(data.mensaje);
 			}
@@ -21,3 +21,5 @@ $(document).ready(function(){
    });
    
 });
+
+
