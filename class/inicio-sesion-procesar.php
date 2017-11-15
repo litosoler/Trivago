@@ -4,19 +4,18 @@ include_once("class_conexion.php");
 
 $variable["exito"]=0;
 $conexion = new Conexion();
-//$conexion->establecerConexion();
+$conexion->establecerConexion();
 
 $sql = sprintf(
 		"SELECT NOMBRE,CORREO_ELECTRONICO, CONTRASENIA, CODIGO_USUARIO  FROM TRIVAGO.TBL_USUARIO WHERE CONTRASENIA= '%s' AND CORREO_ELECTRONICO= '%s'",
 		$_GET["contra"],
 		$_GET["correo"]		
 	);
-//echo $sql;
 $resultado=$conexion->ejecutarInstruccion($sql);
 
 $variable["mensaje"]="Error, usuario no encontrado o contraseña incorrecta";
 $resultadonuevo=oci_fetch_array($resultado);
-echo $resultadonuevo[];
+
 
 if ($resultadonuevo[1]==$_GET['correo']) {
 	    $_SESSION["codigo_usuario"]=$resultadonuevo[3];

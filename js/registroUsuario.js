@@ -9,7 +9,7 @@ $(document).ready(function(){
 		success: function(data){
 			if (data.exito==1) {
 				alert(data.mensaje);
-				window.location = "../ajustes_registro.html";
+				window.location = "../ajustes_registro.php";
 			}else{ 
                alert(data.mensaje);
 			}

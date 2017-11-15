@@ -1,5 +1,5 @@
 $(document).ready(function(){
-   $("#btn-iniciar-sesion").click(function(){ 	
+   $("#iniciar-sesion").click(function(){ 	
    	if ($("#pwd").val()!="" && $("#correo").val()!="" ) {		
    		$.ajax({
 		url:"../class/inicio-sesion-procesar.php",
