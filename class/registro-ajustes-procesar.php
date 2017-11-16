@@ -13,10 +13,10 @@ $d = $_GET["postal"];
 $f = $_GET["direccion"];
 
 
-$correo = $_GET['correo'];
-//$correo= $_SESSION['correo'];
-$contra = $_GET['contra'];
-//$contra = $_SESSION['contrasenia'];
+//$correo = $_GET['correo'];
+$correo= $_SESSION['correo'];
+//$contra = $_GET['contra'];
+$contra = $_SESSION['contrasenia'];
 
 
 
