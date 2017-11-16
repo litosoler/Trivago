@@ -2,6 +2,11 @@
 session_start();
 include_once("class_conexion.php");
 
+if (!isset($_SESSION['correo'])) {
+	header("location: ../paginasweb/registro-usuarios.php"); 
+}
+
+
 $variable["exito"]=1;
 //$variable["mensaje"]="Por favor termine de completar el siguiente formulario para finalizar el registro con exito";
 $conexion = new Conexion();
@@ -13,10 +18,10 @@ $d = $_GET["postal"];
 $f = $_GET["direccion"];
 
 
-//$correo = $_GET['correo'];
-$correo= $_SESSION['correo'];
-//$contra = $_GET['contra'];
-$contra = $_SESSION['contrasenia'];
+$correo = $_GET['correo'];
+//$correo= $_SESSION['correo'];
+$contra = $_GET['contra'];
+//$contra = $_SESSION['contrasenia'];
 
 
 
@@ -60,7 +65,7 @@ oci_commit($conexion->retornaConexion());
 		//$_SESSION["correo"]=$_POST["correo"];
 		//$_SESSION['contrasenia']=$_POST["contra"];
 //$variable["exito"]=1;
-$variable["mensaje"]="Se debe redireccionar";
+//$variable["mensaje"]="Se debe redireccionar";
 
 //}
 echo json_encode($variable);
