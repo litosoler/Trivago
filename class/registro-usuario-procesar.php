@@ -3,7 +3,7 @@ session_start();
 include_once("class_conexion.php");
 
 $variable["exito"]=1;
-//$variable["mensaje"]="Por favor termine de completar el siguiente formulario para finalizar el registro con exito";
+$variable["mensaje"]="Por favor termine de completar el siguiente formulario para finalizar el registro con exito";
 /*$conexion = new Conexion();*/
 //$conexion->establecerConexion();
 
