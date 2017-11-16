@@ -3,7 +3,7 @@ session_start();
 include_once("class_conexion.php");
 
 $variable["exito"]=1;
-$variable["mensaje"]="Por favor termine de completar el siguiente formulario para finalizar el registro con exito";
+//$variable["mensaje"]="Por favor termine de completar el siguiente formulario para finalizar el registro con exito";
 $conexion = new Conexion();
 //$conexion->establecerConexion();
 $a = $_GET["nombre"];
@@ -13,10 +13,19 @@ $d = $_GET["postal"];
 $f = $_GET["direccion"];
 
 
-//$correo = $_GET['correo'];
-$correo= $_SESSION['correo'];
-//$contra = $_GET['contra'];
-$contra = $_SESSION['contrasenia'];
+$correo = $_GET['correo'];
+//$correo= $_SESSION['correo'];
+$contra = $_GET['contra'];
+//$contra = $_SESSION['contrasenia'];
+
+
+
+$genero= 1;
+if ($_GET["genero"]='M') {
+	$genero= 1;
+}else{
+	$genero=2;
+}
 
 
 $sql1= "SELECT NOMBRE FROM TRIVAGO.TBL_USUARIO";
@@ -27,12 +36,7 @@ while ($nuevoresultado=oci_fetch_array($resultado)!=FALSE) {
 }
 
 
-$genero= 1;
-if ($_GET["genero"]='M') {
-	$genero= 1;
-}else{
-	$genero=2;
-}
+//alert (data);
 
 
 $sql = "INSERT INTO TBL_USUARIO (CODIGO_USUARIO, CODIGO_GENERO, CODIGO_CIUDAD,CODIGO_POSTAL,CODIGO_TIPO_USUARIO, NOMBRE , APELLIDO, CORREO_ELECTRONICO, CONTRASENIA, DIRECCION) 

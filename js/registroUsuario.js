@@ -4,7 +4,7 @@ $(document).ready(function(){
    		$.ajax({
 		url:"../class/registro-usuario-procesar.php",
 		data: 'contra=' + $("#pwd").val() + '& correo=' + $("#correo").val(),
-		method: "POST",
+		method: "GET",
 		dataType:"json",
 		success: function(data){
 			if (data.exito==1) {
