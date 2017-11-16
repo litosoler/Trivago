@@ -2,12 +2,9 @@
 session_start();
 include_once("class_conexion.php");
 
-if (!isset($_SESSION['correo'])) {
-	header("location: ../paginasweb/registro-usuarios.php"); 
-}
 
 
-$variable["exito"]=1;
+$variable["exito"]=0;
 //$variable["mensaje"]="Por favor termine de completar el siguiente formulario para finalizar el registro con exito";
 $conexion = new Conexion();
 //$conexion->establecerConexion();
@@ -68,5 +65,7 @@ oci_commit($conexion->retornaConexion());
 //$variable["mensaje"]="Se debe redireccionar";
 
 //}
+
 echo json_encode($variable);
+//echo $variable;
  ?>

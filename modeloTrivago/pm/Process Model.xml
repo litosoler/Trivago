@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="73F95DFD-7B3A-4D23-D74A-21853A51E084">
-<createdBy>Josue</createdBy>
-<createdTime>2017-10-19 06:46:22 UTC</createdTime>
-<ownerDesignName>modeloTrivago</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>
