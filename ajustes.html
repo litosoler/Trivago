@@ -91,8 +91,8 @@
 		            			
 		            			<div class="form-group form-inline prueba-div">
 											  	<p class="ajuste-label" style="display: block;">Sexo</p>
-											    <label><input type="radio" name="rbt-gustos" value="M">    Masculino</label>
-	                  		<label><input type="radio" name="rbt-gustos" value="F">    Femenino</label>
+											    <label><input id="genero" type="radio" name="rbt-gustos" value="M">    Masculino</label>
+	                  		                    <label><input id="genero" type="radio" name="rbt-gustos" value="F">    Femenino</label>
 											</div>
 		            		</div>
 
@@ -100,67 +100,141 @@
 
 										  <div class="form-group form-inline prueba-div">
 										  	<p class="ajuste-label">Nombres (requerido)</p>
-										    <input type="text" class="prueba-div form-control" placeholder="Nombre">
+										    <input id="nombre" type="text" class="prueba-div form-control" placeholder="Nombre">
 										  </div>
 
 										  <div class="form-group form-inline prueba-div">
 										  	<p class="ajuste-label">Apellidos (requerido)</p>
-										  	 <input type="password" class="prueba-div form-control" placeholder="Apellido">
+										  	 <input id="apelido" type="text" class="prueba-div form-control" placeholder="Apellido">
 										  </div>
 
 									 	</div>
 
 
-									 	<div class="form-group form-inline prueba-div">
-										  	<p class="ajuste-label">Fecha de Nacimiento</p>
-										    <input type="date" class="prueba-div form-control">
-										</div>
 
 										<div class="form-group form-inline">
 									 		
 
 										  <div class="form-group form-inline prueba-div">
 										  	<p class="ajuste-label">Codigo Postal</p>
-										  	 <input type="password" class="prueba-div form-control" placeholder="Apellido">
+										  	 <input id="codigo-postal" type="password" class="prueba-div form-control" placeholder="Apellido">
 										  </div>
 
 									 	</div>
 
 									 	<div class="form-group form-inline">
-									 		<div class="form-group form-inline prueba-div">
+									 		
+										  <div class="form-group form-inline prueba-div">
 										  	<p class="ajuste-label">Ciudad</p>
-										    <input type="text" class="prueba-div form-control" placeholder="Nombre">
-										  </div>
-
-										  <div class="form-group form-inline prueba-div">
-										  	<p class="ajuste-label">País</p>
 										  	<!-- <input type="password" class="prueba-div form-control" placeholder="País"> -->
-										  	 <select class="form-control" id="seleccionar-pais" name="seleccionar-pais">
-										  	 	<option value="none" selected="">Seleccione un País</option>
-													<option value="ar">Argentina</option>
-													<option value="au">Australia</option>
-													<option value="hn">Honduras</option>
-										  	 	
-										  	 </select>
+										  	 <select class="form-control" id="seleccionar-ciudad" name="seleccionar-ciudad">
+												    <option value="none" selected="" ="">Seleccione una Ciudad</option>
+													<option value="1" >TEGUCIGALGPA</option>
+													<option value="2" >SAN PEDRO SULA</option>
+
+													<option value="3" >SAN JOSE</option>
+
+													<option value="4">LA HABANA</option>
+
+													<option value="5">KINGSTONG</option>
+
+													<option value="6" >VACOUVER</option>
+
+													<option value="7" >TORONTO</option>
+
+													<option value="8" >NEW YORK</option>
+
+													<option value="9" >MIAMI</option>
+
+
+
+													<option value="10" >CHICAGO</option>
+
+													<option value="11" >LOS ANGELES</option>
+
+													<option value="12" >SAN FRANCISCO</option>
+
+
+													<option value="13" >DISTRITO FEDERAL</option>
+
+													<option value="14" >GUADALAJARA</option>
+
+													<option value="15" >CANCUN</option>
+
+													<option value="16" >BOGOTA</option>
+
+													<option value="17" >MEDELLIN</option>
+													<option value="18" >SAU PAULO</option>
+
+													<option value="19" >RIO DE GENERO</option>
+
+													<option value="20" >BUENOS AIRES</option>
+
+
+													<option value="21">MAR DE PLATA</option>
+
+													<option value="22" >PARIS</option>
+
+													<option value="23" >MARSELLA</option>
+
+													<option value="24" >ESTRARBURGO</option>
+													<option value="25" >MADRID</option>
+
+
+													<option value="26" >BARCELONA</option>
+													<option value="27" >LONDRES</option>
+
+													<option value="28" >MANCHESTER</option>
+
+													<option value="29" >LIVERPOOL</option>
+
+
+													<option value="31" >MUNICH</option>
+
+													<option value="30">BERLIN</option>
+													<option value="32" >ROMA</option>
+
+													<option value="33" >MILAN</option>
+
+													<option value="34" >GENOVA</option>
+
+													<option value="35" >MOSCOW</option>
+
+													<option value="36" >SAN PETTERSBURGO</option>
+
+													<option value="37" >EL CAIRO</option>
+
+
+													<option value="38" >JOHHANERBURGO</option>
+
+													<option value="39" >PEKIN</option>
+
+													<option value="40" >SHANGAI</option>
+
+													<option value="41" >DOHA</option>
+
+													<option value="42" >TOKIO</option>
+
+													<option value="43">SHIBUYA</option>
+													<option value="44" >SIDNEY</option>
+
+													<option value="45" >AUCKLAND</option>
+											</select>
+
 										  </div>
 
 									 	</div>
 
-									 	<div class="form-group form-inline">
-									 		<div class="form-group form-inline prueba-div">
-										  	<p class="ajuste-label">Numero de Celular</p>
-										    <input type="tel" class="prueba-div form-control" placeholder="Telefono">
+									 	 <div class="form-group form-inline prueba-div">
+										  	<p class="ajuste-label">Direccion</p>
+										  	 <input id="direccion" type="text" class="prueba-div form-control" placeholder="Direccion">
 										  </div>
-
-										  <div class="form-group form-inline prueba-div">
-										  	<p class="ajuste-label">e-mail</p>
-										  	 <input type="email" class="prueba-div form-control" placeholder="Correo">
-										  </div>
+										 
 
 									 	</div>
 
 										<div class="form-group form-inline text-right">
-									  	<button type="submit" class="btn btn-default">Guardar</button>
+									  	<button id="btn_guardar_ajustes" type="submit" class="btn btn-default">Guardar</button>
 										</div>
 
 	            		</form>
@@ -170,7 +244,7 @@
 	            </details>
 	            <!-- /#Tabla 1 -->
 
-	            <!--Tabla 2 -->
+	            <!--Tabla 2 
 	            <details class="cuerpo-ajustes">
 
 	            	<summary class="titulo-tabla-ajustes">
@@ -208,7 +282,7 @@
 	            		<p class="ajuste-label">Actividades recientes</p>
 	            	</div>
 
-	            </details>
+	            </details>-->
 	            <!-- /#Tabla 2 -->
 
 	            </div>
@@ -243,6 +317,7 @@
   <!-- Custom JavaScript -->
   <script src="js/controlador.js"></script>
   <script src="js/funcionalidades.js"></script>
+  <script src="js/ajustes_registro.js"></script>
 
 </body>
 </html>

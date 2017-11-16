@@ -23,8 +23,8 @@ $resultadonuevo=oci_fetch_array($resultado);*/
 //if ($resultadonuevo[1]==$_GET['correo']) {
 	    //$_SESSION["codigo_usuario"]=$resultadonuevo[3];
 		//$_SESSION["nombre"]=$resultadonuevo[0];
-$_SESSION["correo"]=$_POST["correo"];
-$_SESSION['contrasenia']=$_POST["contra"];
+$_SESSION["correo"]=$_GET["correo"];
+$_SESSION['contrasenia']=$_GET["contra"];
 		//$variable["exito"]=1;
 		//$variable["mensaje"]="Se debe redireccionar";
 
